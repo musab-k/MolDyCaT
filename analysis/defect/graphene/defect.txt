@@ -1,0 +1,19 @@
+Graphene
+
+no vacancy -1344.79371 eV
+energy per atom -8.40496
+vacancy -1329.12675eV
+energy of formation: 7.262eV
+
+13,0 nanotube
+no vacancy -1299.1741 eV
+per atom -8.328eV
+vacancy -1284.11063
+energy of formation: 6.74
+
+10,5 nanotube
+no vacancy -1166.27699 eV
+per atom 8.331eV
+vacancy -1151.11806 Ev
+6.828eV
+

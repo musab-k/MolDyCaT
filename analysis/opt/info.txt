@@ -1,0 +1,3 @@
+Relaxed Daniel's C8 cluster structure from substantially perturbed to optimal geometry until force tolerance within 0.005 eV/A or 200 steps.
+
+Default settings used everywhere except DMD_GAMMA_RECALC_STEPS = 60 for DMDUM

@@ -1,0 +1,153 @@
+#################################################################
+# TASK:
+# ENERGY - Single energy calculation
+# MD - Molecular dynamics
+# PHONON - Calculate phonons
+#################################################################
+TASK ENERGY
+
+
+
+#################################################################
+# Restart flag. It may either be On or Off. If it is on it will 
+# read in the positions from the output folder (positions.end) 
+# and will read in the velocities file from the output folder 
+# (velocities.end).
+#################################################################
+RESTART OFF
+
+
+#################################################################
+# Parameters to set out the unit cell, with dimensions in
+# Angstroms, angles of the unit cell, alpha, beta and gamma
+# in degrees and the type of the boundary, either Periodic or 
+# Open, in the x_1, x_2 and x_3 direction.
+#
+# The default values for CELL_DIMENSIONS are 6.0 6.0 6.0
+# Note that they should not be reduced below 5.2 5.2 5.2
+# 
+# The default values for CELL_ANGLES are 90.0 90.0 90.0 
+# 
+# The default values for BOUNDARY_TYPE are Open Open Open
+#################################################################
+CELL_DIMENSIONS 10.3923048 10.3923048 10.3923048
+CELL_ANGLES 90.0 90.0 90.0
+BOUNDARY_TYPE Periodic Periodic Periodic 
+
+
+#################################################################
+# Use a supercell or not, Y or N. The supercells may be used to
+# tesselate your supplied positions to create a larger unit cell.
+# Please specify the [integer] number of tesselations in the x, y
+# or z direction for MULTIPLY_CELL_DIRN.
+#
+# The default value for SUPERCELL is N
+# The default value for MULTIPLY_CELL_DIRN is 1 1 1
+#################################################################
+SUPERCELL N
+MULTIPLY_CELL_DIRN 3 3 3
+
+#################################################################
+# Turn on a flag to indicate the use of structural relaxation.
+# It can either be On or Off.
+# 
+# The default value for STRUCT_RELAX is Off.
+# The default value for RELAXER is CG.
+# The default value for FORCE_TOL is 0.01.
+# The default value of RELAX_STEPS is 100.
+# RELAXER = CG/SD/DMDUM/DMDCM
+#################################################################
+STRUCT_RELAX ON
+RELAXER SD
+FORCE_TOL 0.00005
+RELAX_STEPS 200
+SD_STEP_SIZE 0.005
+DMD_GAMMA_RECALC_STEPS 100
+DMD_TIMESTEP_SCALE 7
+
+#################################################################
+# MD parameters for how often data is written out.
+#
+# If no parameters are specified the default values are 100 for
+# each.
+#################################################################
+ENERGY_OUT_STEPS 100
+VELOCITY_OUT_STEPS 100
+POSITIONS_OUT_STEPS 200
+
+
+#################################################################
+# MD parameters for the time step, in femptoseconds, and the
+# number of time steps to be taken.
+#
+# If no values are specified the default values are 0.1 and 1000,
+# respectively.
+#################################################################
+TIME_STEP 0.5
+MD_STEPS 1000
+
+
+#################################################################
+# MD parameters for thickness of the nearest neighbour list,
+# the SKIN_DEPTH.
+#
+# The default value for SKIN_DEPTH is 1.0
+#################################################################
+SKIN_DEPTH 1.0
+
+
+#################################################################
+# MD parameters for the temperature in Kelvin, the tolerance on 
+# the temperature and the thermostat to be used.
+# 
+# The tolerance on the temperature is TTOL*TEMPERATURE.
+# 
+# The thermostat may be either A for Andersen or VS for the
+# Velocity Scaling method.
+#
+# The default value for TEMPERATURE is 350
+# The default value for TEMP_TOL is 0.01
+# The default value for THERMOSTAT is VS
+#################################################################
+TEMPERATURE 350
+TEMP_TOL 0.01
+THERMOSTAT VS 
+
+RDF_BINS 100
+RDF_CUTOFF 8.0
+
+#################################################################
+# The integrator to be used for the MD. The verlet method may be
+# used.
+#
+# The default value for INTEGRATOR is VERLET
+# Naming convention follows: http://jcp.aip.org/resource/1/jcpsa6/v101/i5/p4062_s1
+#################################################################
+INTEGRATOR VERLET
+
+
+#################################################################
+# The name of the file containing the coordinates of the atoms 
+# to be simulated.
+#################################################################
+ATOMS_FILE_ADDRESS vacancy.txt
+
+
+#################################################################
+# Restart flag. It may either be On or Off. If it is on it will 
+# read in the positions from the output folder (positions.end) 
+# and will read in the velocities file from the output folder 
+# (velocities.end).
+#################################################################
+RESTART OFF
+
+PHONON_DISPLACEMENT 0.0001
+
+
+PHONON_Q_POINTS 
+BEGIN LIST
+0.0 0.3 0.2
+0.0 0.0 0.0 
+END LIST
+
+RESTART OFF

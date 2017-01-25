@@ -1,0 +1,10 @@
+#! /bin/bash
+echo "You may need to install armadillo"
+echo "For Ubuntu, run:"
+echo "sudo apt-get install libarmadillo-dev"
+echo "For Mac, install from"
+echo "http://arma.sourceforge.net/download.html"
+cmake . -DCMAKE_BUILD_TYPE="Release"
+make -j2
+mkdir -p inputs
+mkdir -p outputs

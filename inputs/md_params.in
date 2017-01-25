@@ -1,0 +1,136 @@
+#################################################################
+# TASK:
+# ENERGY - Single energy calculation
+# MD - Molecular dynamics
+# PHONON - Calculate phonons
+#################################################################
+TASK MD
+
+
+#################################################################
+# Restart flag: ON or OFF. If ON it will 
+# read in {seed}_positions.end, {seed}_velocities.end 
+# and {seed}_unitcell.out from the outputs folder
+#################################################################
+RESTART OFF
+
+
+#################################################################
+# CELL_DIMENSIONS X Y Z in Angstroms
+# CELL_ANGLES alpha beta gamma in degrees 
+# BOUNDARY_TYPE can be open or periodic
+#
+# NB The length of any dimension of the cell should not be
+#    be less than 5.2 after applying scaling to the unit cell
+# NB CELL_ANGLES can only be 90 90 90
+# 
+# 
+# The default values for BOUNDARY_TYPE are Open Open Open
+#################################################################
+CELL_DIMENSIONS 3.4641 3.4641 3.4641
+CELL_ANGLES 90.0 90.0 90.0
+BOUNDARY_TYPE Periodic Periodic Periodic 
+
+#################################################################
+# SUPERCELL: Y(es) or N(o).
+# MULTIPLY_CELL_DIRN  [integer] number of unit cells in the x, y
+# or z direction 
+#
+# The default value for SUPERCELL is N
+# The default value for MULTIPLY_CELL_DIRN is 1 1 1
+#################################################################
+SUPERCELL Y
+MULTIPLY_CELL_DIRN 2 2 2
+
+#################################################################
+# STRUCT_RELAX: ON or OFF 
+# Relaxation takes place prior to MD
+# RELAXER: DMDUM (Damped MD uncopuled) or DMDCM (Damped MD coupled)
+# or SD (Steepest Descent)
+# FORCE_TOL Stops when force less than this
+# RELAX_STEPS max number of iterations for relaxation
+# SD_STEP_SIZE alpha for steepest descent
+# DMD_GAMMA_RECALC_STEPS Number of steps to wait before periodically
+#                        recomputing damping factor gamma
+#                        (best left unchanged unless you have experience
+#                        with the dark arts as rather temperamental)
+# DMD_TIMESTEP_SCALE     Timestep for DMD calculations is calculated
+#                        using 2*PI/(GAMMA*DMD_TIMESTEP_SCALE), 
+#                        decreasing may speed up convergence (or break it) 
+#
+# The default value for STRUCT_RELAX is Off.
+# The default value for RELAXER is CG.
+# The default value for FORCE_TOL is 0.01.
+# The default value of RELAX_STEPS is 100.
+#################################################################
+STRUCT_RELAX On
+RELAXER SD
+FORCE_TOL 0.1
+RELAX_STEPS 6000
+SD_STEP_SIZE 0.001
+
+DMD_GAMMA_RECALC_STEPS 10000
+DMD_TIMESTEP_SCALE 7
+
+#################################################################
+# The name of the positions file in the inputs folder.
+#################################################################
+ATOMS_FILE_ADDRESS diamond.txt
+
+#################################################################
+# TIME_STEP in femtoseconds
+# MD_STEPS number of time steps
+##################################################################
+TIME_STEP 0.1
+MD_STEPS 1000
+
+#################################################################
+# MD parameters for how often data is written out.
+#
+# If no parameters are specified the default values are 100 for
+# each.
+#################################################################
+ENERGY_OUT_STEPS 10
+VELOCITY_OUT_STEPS 100
+POSITIONS_OUT_STEPS 100
+
+################################################################
+# RDF_STEPS how often data is collected for rdf in time steps
+# RDF_CUTOFF rdf is calculation up to this value in Angstroms
+# RDF_BINS number of histogram bins for rdf
+################################################################
+
+RDF_STEPS 5
+RDF_CUTOFF 10
+RDF_BINS 100
+
+#################################################################
+# TEMPERATURE in Kelvin
+# 
+# TEMP_TOL Fraction of temperature
+# 
+# THERMOSTAT ANDERSEN or VS (velocity scaling) or NOTHERMO for no thermostat
+#
+# The default value for TEMPERATURE is 350
+# The default value for TEMP_TOL is 0.01
+# The default value for THERMOSTAT is VS
+#################################################################
+TEMPERATURE 100
+TEMP_TOL 0.01
+THERMOSTAT ANDERSEN 
+
+
+#################################################################
+# The default value for INTEGRATOR is VERLET
+# 
+# Naming convention for the symplectic integrators follows:
+# http://jcp.aip.org/resource/1/jcpsa6/v101/i5/p4062_s1
+# where the symplectic integrator types are
+# 
+# si2.a, si3.a, si3.b, si4.a, si4.b, si4.c and si6.a
+#
+# The numbers stand for the order and the letters coefficient 
+# choices.
+#################################################################
+INTEGRATOR VERLET
+

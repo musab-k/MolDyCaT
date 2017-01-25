@@ -1,0 +1,24 @@
+Intrinsic point defects
+
+Diamond 216:          -1801.95933 
+Diamond 215:    -1783.75687  (no relaxation)
+Diamond 215:  -1784.86937  (with relaxation)
+Diamond 217: -1752.63226 (no relaxation)
+Diamond 217 -1797.48072 (with relaxation)
+
+Energy of vacancy creation (with finite size correction)
+E_vac  = -1784.86937   -  -1801.95933  * (215/216) = 8.74755569
+Comparse to value from literature                    7.2 
+E_int = -1797.48072  - -1801.95933  * (217/216) = 12.8210143
+Literature value                                    15.8
+
+
+
+http://necsi.edu/projects/yaneer/physrevlett61-2689.pdf
+
+
+
+Relaxed using SD optimiser to within 0.025 eV/A (progressively reducing step size during process to get efficient trade-off between computational time and accuracy)
+
+http://www.tandfonline.com/doi/abs/10.1080/00337578308207405
+

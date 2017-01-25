@@ -1,0 +1,90 @@
+// 	          \`*-.                    
+// 	           )  _`-.                 
+// 	          .  : `. .                
+// 	          : _   '  '
+// 	          ; *` _.   `*-._          
+// 	          `-.-'          `-.       
+// 	            ;       `       `.     
+// 	            :.       .        '
+// 	            . \  .   :   .-'   .   
+// 	            '  `+.;  ;  '      :   
+// 	            :  '  |    ;       ;-. 
+// 	            ; '   : :`-:     _.`* ;
+// 	 [MolDy] .*' /  .*' ; .*`- +'  `*' 
+// 	         `*-*   `*-*  `*-*'        
+
+
+
+
+
+To build and compile MolDyCaT:
+
+sh configure
+
+To run MolDyCaT:
+
+./moldycat 
+
+or 
+
+./moldycat {seed}
+        
+        where {seed} is the first part of the input file {seeds}_params.in
+
+Input files should be in the folder inputs/
+        md_params.in - example MD input file
+        energy_params.in - example single point energy calculation input file
+
+Output files will be in the folder outputs/
+
+The following output files are produced:
+
+
+All Simulations
+
+{seed}_param.out
+
+Lists all parameters as read in from {seed}_params.in
+
+Relaxations
+
+{seed}_opt.xyz
+
+Positions at each step of a geometry optimisations. Compatible with Jmol for imaging.
+
+{seed}_relax.out
+
+Iteration number, total system energy, maximum force per atom.
+
+MD simulations
+
+{seed}_positions.xyz
+
+Positions at every POSITION_OUT_STEPS Compatible with Jmol for imaging.
+
+{seed}_velocities.out 
+
+Velocities at every VELOCITY_OUT_STEPS
+
+{seed}_temp.out
+
+Iteration number, temperature.
+
+{seed}_energy.out 
+
+Iteration number, E_(TB)+E_(rep) at every ENERGY_OUT_STEPS, total energy at every ENERGY_OUT_STEPS.
+
+{seed}_rdf.dat 
+
+Radial distribution function, if RDF_STEPS is not zero
+
+{seed}_positions.end
+
+Restart file, contains positions from end of simulation (or mid-way through if simulation did not end).
+
+{seed}_velocities.end
+
+Restart file, contains velocities from end of simulation (or mid-way through if simulation did not end).
+
+{seed}_unitcell.out
+

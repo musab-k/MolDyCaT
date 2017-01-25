@@ -1,0 +1,2848 @@
+------------------------------------------------------------------------
+r897 | vhc08 | 2012-03-23 16:55:39 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+byebye
+
+------------------------------------------------------------------------
+r894 | vhc08 | 2012-03-23 16:52:53 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Moldyphone moved to src
+
+------------------------------------------------------------------------
+r892 | bk308 | 2012-03-23 16:51:18 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+
+
+------------------------------------------------------------------------
+r891 | bk308 | 2012-03-23 16:49:09 +0000 (Fri, 23 Mar 2012) | 1 line
+
+moldy clean
+------------------------------------------------------------------------
+r888 | bk308 | 2012-03-23 16:44:38 +0000 (Fri, 23 Mar 2012) | 1 line
+
+moldy remove headers
+------------------------------------------------------------------------
+r880 | bk308 | 2012-03-23 16:36:36 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Moldycat.cpp comments
+
+------------------------------------------------------------------------
+r862 | vhc08 | 2012-03-23 16:20:26 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Removed test dir
+
+------------------------------------------------------------------------
+r860 | vhc08 | 2012-03-23 16:19:32 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Removed all test modules from repo
+
+------------------------------------------------------------------------
+r855 | vhc08 | 2012-03-23 16:09:16 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Tidy tidy tidy 
+
+------------------------------------------------------------------------
+r854 | vhc08 | 2012-03-23 16:02:47 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Tidied more stuff
+
+------------------------------------------------------------------------
+r853 | bk308 | 2012-03-23 16:00:59 +0000 (Fri, 23 Mar 2012) | 1 line
+
+comments
+------------------------------------------------------------------------
+r848 | vhc08 | 2012-03-23 15:45:50 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Tidied more code
+
+------------------------------------------------------------------------
+r846 | vhc08 | 2012-03-23 15:34:07 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Tidied code
+
+------------------------------------------------------------------------
+r843 | vhc08 | 2012-03-23 15:23:25 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Tidied code in some modules
+
+------------------------------------------------------------------------
+r836 | vhc08 | 2012-03-23 14:58:45 +0000 (Fri, 23 Mar 2012) | 3 lines
+
+Added more comments
+
+
+------------------------------------------------------------------------
+r831 | vhc08 | 2012-03-23 14:48:25 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Tidied up code
+
+------------------------------------------------------------------------
+r793 | bk308 | 2012-03-23 13:10:13 +0000 (Fri, 23 Mar 2012) | 1 line
+
+bib
+------------------------------------------------------------------------
+r787 | bk308 | 2012-03-23 12:25:08 +0000 (Fri, 23 Mar 2012) | 2 lines
+
+Added more comments to module B and forceeval
+
+------------------------------------------------------------------------
+r726 | mmk07 | 2012-03-22 22:33:37 +0000 (Thu, 22 Mar 2012) | 4 lines
+
+Phonons shit.
+
+And bibliography entries.
+
+------------------------------------------------------------------------
+r643 | bk308 | 2012-03-22 11:34:01 +0000 (Thu, 22 Mar 2012) | 1 line
+
+Small change to module B to reuse displacement rather than copying it to dc vector
+------------------------------------------------------------------------
+r636 | bk308 | 2012-03-22 10:24:59 +0000 (Thu, 22 Mar 2012) | 2 lines
+
+Added omp to build Hamiltonian
+
+------------------------------------------------------------------------
+r635 | bk308 | 2012-03-22 10:20:53 +0000 (Thu, 22 Mar 2012) | 2 lines
+
+Added some comments and parallelised buildHamiltonianDeriv
+
+------------------------------------------------------------------------
+r632 | bk308 | 2012-03-22 00:57:14 +0000 (Thu, 22 Mar 2012) | 2 lines
+
+Added relaxation step output files for all our optimisers. Will use as data to produce gnuplots of iteration vs. energy and iteration vs. force.
+
+------------------------------------------------------------------------
+r630 | bk308 | 2012-03-22 00:22:47 +0000 (Thu, 22 Mar 2012) | 1 line
+
+Have 4 fully functioning optimisation algorithms
+------------------------------------------------------------------------
+r629 | bk308 | 2012-03-22 00:00:47 +0000 (Thu, 22 Mar 2012) | 1 line
+
+Allowed CG step size to be configured using SD step size parameter
+------------------------------------------------------------------------
+r628 | bk308 | 2012-03-21 23:58:22 +0000 (Wed, 21 Mar 2012) | 2 lines
+
+Fixed conjugate gradients relaxation method. Seems to work pretty well. Will do a quick comparison graph to see how the methods compare.
+
+------------------------------------------------------------------------
+r624 | bk308 | 2012-03-21 22:41:31 +0000 (Wed, 21 Mar 2012) | 3 lines
+
+Made Dan's requested changes to moldycat.cpp. We no longer crash if any of the output steps equals zero. 
+I don't understand why you described energy deviation as 'Vomit'. I personally find it the most interesting aspect of our simulation. It's 1 line every 10 iterations or so. Lucky for you I haven't the time to put it back :(
+
+------------------------------------------------------------------------
+r614 | dmr110 | 2012-03-21 21:19:26 +0000 (Wed, 21 Mar 2012) | 2 lines
+
+hadnt removed it all, apologies
+
+------------------------------------------------------------------------
+r613 | dmr110 | 2012-03-21 21:09:12 +0000 (Wed, 21 Mar 2012) | 2 lines
+
+removed benjys vomit
+
+------------------------------------------------------------------------
+r611 | dmr110 | 2012-03-21 20:56:30 +0000 (Wed, 21 Mar 2012) | 2 lines
+
+changed rdf print
+
+------------------------------------------------------------------------
+r609 | dmr110 | 2012-03-21 17:56:21 +0000 (Wed, 21 Mar 2012) | 2 lines
+
+changed relaxation error
+
+------------------------------------------------------------------------
+r602 | mmk07 | 2012-03-21 15:45:08 +0000 (Wed, 21 Mar 2012) | 2 lines
+
+Got rid of warnings regarding unused variables.
+
+------------------------------------------------------------------------
+r597 | bk308 | 2012-03-21 09:45:46 +0000 (Wed, 21 Mar 2012) | 1 line
+
+Fixed compilation problem caused by mismatch between phonon files
+------------------------------------------------------------------------
+r596 | bk308 | 2012-03-21 09:41:54 +0000 (Wed, 21 Mar 2012) | 1 line
+
+Small changes to stepper classes
+------------------------------------------------------------------------
+r595 | bk308 | 2012-03-21 09:41:12 +0000 (Wed, 21 Mar 2012) | 1 line
+
+Updated dummy forceeval header files to be compatible with current force eval
+------------------------------------------------------------------------
+r594 | bk308 | 2012-03-21 01:47:15 +0000 (Wed, 21 Mar 2012) | 2 lines
+
+Added code to track energy drift in moldycat.cpp.
+
+------------------------------------------------------------------------
+r589 | mmk07 | 2012-03-20 18:14:04 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+Changed elastic constants functions (c11,c44, bulkmodulus) so that they don't superscale the atoms - you have to do that yourself before passing the atom list.
+
+------------------------------------------------------------------------
+r579 | dmr110 | 2012-03-20 16:40:18 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+bitch
+
+------------------------------------------------------------------------
+r578 | dmr110 | 2012-03-20 16:19:36 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+changed default value of relaxer
+
+------------------------------------------------------------------------
+r577 | ah808 | 2012-03-20 16:19:19 +0000 (Tue, 20 Mar 2012) | 1 line
+
+added a few files in moldycat
+------------------------------------------------------------------------
+r576 | bk308 | 2012-03-20 16:06:00 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+Build DM slowly for non-parallel code
+
+------------------------------------------------------------------------
+r573 | bk308 | 2012-03-20 15:54:45 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+Added backup phonon file
+
+------------------------------------------------------------------------
+r572 | mmk07 | 2012-03-20 15:42:24 +0000 (Tue, 20 Mar 2012) | 4 lines
+
+Updated elastic constants results.
+
+Added relevant bits to the results section of the report.
+
+------------------------------------------------------------------------
+r571 | ah808 | 2012-03-20 15:40:28 +0000 (Tue, 20 Mar 2012) | 1 line
+
+nanotubes
+------------------------------------------------------------------------
+r567 | bk308 | 2012-03-20 11:10:00 +0000 (Tue, 20 Mar 2012) | 3 lines
+
+Fixed bug in simulation.hpp
+
+
+------------------------------------------------------------------------
+r566 | bk308 | 2012-03-20 09:59:20 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+Grrrr... phonons still not working. Added in souece references for borrowed cmake scripts.
+
+------------------------------------------------------------------------
+r565 | bk308 | 2012-03-20 09:34:53 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+I basically didn't sleep last night but we have some very neat parallelisation on the phonon calculations now. I think it actually works. Please confirm Vincent.
+
+------------------------------------------------------------------------
+r564 | bk308 | 2012-03-20 02:11:43 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+Fixed bug. 'A' is now recognised as valid thermostat. Invalid thermostats are now identified.
+
+------------------------------------------------------------------------
+r562 | bk308 | 2012-03-20 01:53:00 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+Added phonon parallel code. Not quite working yet
+
+------------------------------------------------------------------------
+r559 | vhc08 | 2012-03-20 01:23:02 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+Added output of DyMat to file
+
+------------------------------------------------------------------------
+r558 | vhc08 | 2012-03-20 01:22:29 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+Type in saving matrix
+
+------------------------------------------------------------------------
+r557 | vhc08 | 2012-03-20 01:18:36 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+Just in case its not updated
+
+------------------------------------------------------------------------
+r556 | bk308 | 2012-03-20 00:48:34 +0000 (Tue, 20 Mar 2012) | 2 lines
+
+Changed min cell lengths back to 5.2 A as recommended by Vincent.
+
+------------------------------------------------------------------------
+r554 | dmr110 | 2012-03-19 22:01:22 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+uncommented line 187, Marc you must have had an old version of radial.hpp
+
+------------------------------------------------------------------------
+r553 | dmr110 | 2012-03-19 21:57:00 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+added supercells to rdf calculations
+
+------------------------------------------------------------------------
+r550 | mmk07 | 2012-03-19 19:02:33 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Commented out l187 of moldycat.cpp, which seemed to be causing compilation problems. Any ideas Daniel?
+
+------------------------------------------------------------------------
+r549 | mmk07 | 2012-03-19 18:59:02 +0000 (Mon, 19 Mar 2012) | 13 lines
+
+Made quite a few additions/changes...
+
+Firstly, C44 seems to be working now - we get a result of 5.33 compared to the Xu paper's result of 4.75 and the experimental value of 5.76. This is for diamond using tama's unit cell superscaled to 432 atoms.
+
+I've added tons of plots/scripts so hopefully now the elastic constants bit should be pretty much done.
+
+The other change I've made is to change all instances of Sinv in Benjy's classes to S. This shouldn't matter to anyone else as you're all always using orthorombic geometries (and hence Sinv=S=identity), but we think it makes sense.
+
+I've also added a method to the atom class to work out the nearest neighbour: atoms.nearestNeighbour(cell). Note that this only takes the first atom in the list, and finds the shortest distance between this atom and all other atoms. Of course for regular structures (FCC/BCC/diamond etc.) this should be sufficient - it's obviously meaningless for random/irregular structures.
+
+I've changed the dummy code at the bottom of moldycat.cpp to illustrate any new functions/modifications.
+
+
+------------------------------------------------------------------------
+r548 | bk308 | 2012-03-19 17:00:36 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Added check to ensure non-ortho unit cells only used for simple energy calculations.
+
+------------------------------------------------------------------------
+r547 | dmr110 | 2012-03-19 17:00:32 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+small but important change to output
+
+------------------------------------------------------------------------
+r546 | dmr110 | 2012-03-19 16:24:36 +0000 (Mon, 19 Mar 2012) | 3 lines
+
+fixed non compile
+
+
+------------------------------------------------------------------------
+r545 | dmr110 | 2012-03-19 16:22:29 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+changed default value of rdf_cutoff
+
+------------------------------------------------------------------------
+r544 | bk308 | 2012-03-19 16:20:18 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Changes min unit cell length to 2.6
+
+------------------------------------------------------------------------
+r543 | dmr110 | 2012-03-19 14:28:37 +0000 (Mon, 19 Mar 2012) | 3 lines
+
+
+yet more radial changes
+
+------------------------------------------------------------------------
+r542 | mmk07 | 2012-03-19 14:10:20 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Small changes to evstretcher.
+
+------------------------------------------------------------------------
+r541 | bk308 | 2012-03-19 14:01:18 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Added architecture dependent optimisations. This will give a generous performance boost. We now also do library detection on armadillo. CMake will spit out an error if you don't have armadillo installed.
+
+------------------------------------------------------------------------
+r538 | mmk07 | 2012-03-19 13:02:27 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Changed evStretcher so it works out the nearest neighbour distance (by iterating over all pairs) instead of having to input this manually. 
+
+------------------------------------------------------------------------
+r537 | dmr110 | 2012-03-19 12:59:10 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+deleted unnecessary code
+
+------------------------------------------------------------------------
+r536 | dmr110 | 2012-03-19 12:55:12 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+ more changes to rdf code, really should be right now
+
+------------------------------------------------------------------------
+r535 | dmr110 | 2012-03-19 12:45:29 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+changes to output file names
+
+------------------------------------------------------------------------
+r533 | dmr110 | 2012-03-19 12:16:57 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+small change related to rdf in moldycat.cpp
+
+------------------------------------------------------------------------
+r530 | mmk07 | 2012-03-19 10:40:17 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Did graphene for 320 atoms. Made a few changes to evStretcher - this function can be used to generate your evCurves.
+
+------------------------------------------------------------------------
+r524 | vhc08 | 2012-03-19 10:30:15 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Fixed a few things
+
+------------------------------------------------------------------------
+r523 | vhc08 | 2012-03-19 10:30:00 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Fixed code to call phonon calculations
+
+------------------------------------------------------------------------
+r522 | bk308 | 2012-03-19 10:20:57 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Full optimisations on module B turned on. Should be a lot faster now.
+
+------------------------------------------------------------------------
+r520 | vhc08 | 2012-03-19 09:32:08 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Updated a few things in the phonons module
+
+------------------------------------------------------------------------
+r517 | bk308 | 2012-03-19 01:18:30 +0000 (Mon, 19 Mar 2012) | 3 lines
+
+Further factor of 2 speed up in module B: DM builder as only summing up until maximum occupied level.
+Should hopefully yield noticeable improvement.
+
+------------------------------------------------------------------------
+r516 | mmk07 | 2012-03-19 01:12:10 +0000 (Mon, 19 Mar 2012) | 3 lines
+
+Updates elasticConstants file - with seemingly working although possibly dodgy c44
+
+
+------------------------------------------------------------------------
+r514 | mmk07 | 2012-03-19 00:58:02 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+C44 seems to be working - gives the right value of 5.48 (paper says 5.42 and 4.75 - no idea why there are 2 ??) - BUT when visualised in jmol the positions aren't really being sheared....
+
+------------------------------------------------------------------------
+r512 | bk308 | 2012-03-19 00:37:34 +0000 (Mon, 19 Mar 2012) | 3 lines
+
+Added RDF_STEPS parameter to input file. 
+Detemines how often radial distribution function is sampled.
+
+------------------------------------------------------------------------
+r511 | bk308 | 2012-03-19 00:28:23 +0000 (Mon, 19 Mar 2012) | 4 lines
+
+I was trying to be crafty but it didn't work out :(
+
+ Missed a race condition as I was only testing on small systems where the vomit was managable. Only for large systems did the code run long enough to make conflicts statistically likely. I am 90% confident the DMs now work
+
+------------------------------------------------------------------------
+r510 | mmk07 | 2012-03-19 00:05:09 +0000 (Mon, 19 Mar 2012) | 2 lines
+
+Fixed some compiler problems.
+
+------------------------------------------------------------------------
+r509 | mmk07 | 2012-03-18 23:53:18 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+Made small changes.
+
+------------------------------------------------------------------------
+r508 | dmr110 | 2012-03-18 23:46:28 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+unbroken benjys changes (AGAIN!)
+
+------------------------------------------------------------------------
+r507 | bk308 | 2012-03-18 23:39:55 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+Fixed restart mechanism
+
+------------------------------------------------------------------------
+r505 | bk308 | 2012-03-18 23:04:24 +0000 (Sun, 18 Mar 2012) | 4 lines
+
+All output files now of form 
+SEED_energy.out
+to prevent accidental overwriting of files
+
+------------------------------------------------------------------------
+r504 | bk308 | 2012-03-18 22:48:54 +0000 (Sun, 18 Mar 2012) | 3 lines
+
+Used omp and some minor restructuring to achieve factor of 2 speed up in build DM function.
+Another factor of 2 available if we only calculate bottom 2n levels (excluding degenerate ones) and do the degenerate seperately.
+
+------------------------------------------------------------------------
+r501 | dmr110 | 2012-03-18 19:14:13 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+fixed non-compile
+
+------------------------------------------------------------------------
+r500 | dmr110 | 2012-03-18 18:58:57 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+undid radial changes
+
+------------------------------------------------------------------------
+r499 | mmk07 | 2012-03-18 18:57:59 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+Minor compilation error.
+
+------------------------------------------------------------------------
+r498 | mmk07 | 2012-03-18 18:55:38 +0000 (Sun, 18 Mar 2012) | 4 lines
+
+Added the bulk modulus function to elasticConstants.hpp. 
+
+void bulkModulus(atom_list& atoms_init, unitcell& cell_init, int scaleDir[], string filename="outputs/atoms")
+
+------------------------------------------------------------------------
+r497 | bk308 | 2012-03-18 18:41:26 +0000 (Sun, 18 Mar 2012) | 3 lines
+
+Another typo
+
+
+------------------------------------------------------------------------
+r496 | bk308 | 2012-03-18 18:39:43 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+Mini typo
+
+------------------------------------------------------------------------
+r495 | bk308 | 2012-03-18 18:26:50 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+Added calcS method to unitcell to recalculate transformation matrix and inverse.
+
+------------------------------------------------------------------------
+r492 | dmr110 | 2012-03-18 16:09:50 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+change writeunitcell to take a cell instead of a sim
+
+------------------------------------------------------------------------
+r490 | dmr110 | 2012-03-18 14:52:39 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+changed normalisation of rdf
+
+------------------------------------------------------------------------
+r489 | bk308 | 2012-03-18 12:42:49 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+Added code to print out phonon spectrum to output/phonon.freqs file.
+
+------------------------------------------------------------------------
+r488 | bk308 | 2012-03-18 12:24:12 +0000 (Sun, 18 Mar 2012) | 2 lines
+
+Moved Vincent's phonon code into sim/phonon.hpp and starting integrating into moldycat.cpp
+
+------------------------------------------------------------------------
+r487 | bk308 | 2012-03-18 11:40:37 +0000 (Sun, 18 Mar 2012) | 10 lines
+
+Added results of defect calculation:
+
+Vacancies:
+8.7 vs. 7.1 eV 
+12.8 vs. 15.8 eV
+
+(Moldy vs. Literature)
+
+Added a few amendments to DMD optimisers to give warnings when they crash and stop rather than diverging.
+
+------------------------------------------------------------------------
+r482 | bk308 | 2012-03-17 15:58:14 +0000 (Sat, 17 Mar 2012) | 5 lines
+
+Fixed small problems with optimisers.
+Take a look at the interstitial video in analysis/defect.
+
+Still working on my defect calculation. Will commit results when I have them
+
+------------------------------------------------------------------------
+r481 | bk308 | 2012-03-17 13:45:28 +0000 (Sat, 17 Mar 2012) | 3 lines
+
+Just undid the bit I broke. Sorry!
+
+
+------------------------------------------------------------------------
+r480 | dmr110 | 2012-03-17 12:27:09 +0000 (Sat, 17 Mar 2012) | 2 lines
+
+removed vomit
+
+------------------------------------------------------------------------
+r479 | vhc08 | 2012-03-17 00:47:17 +0000 (Sat, 17 Mar 2012) | 2 lines
+
+Think I've managed to successfully code the construction of the dynamical matrix, at least for the gamma point calculations. Takes a long time to obtain the phonon frequencies of a 2x2x2 (in conventional unit cells) of diamond (64 atoms)... will need more looking into. 
+
+------------------------------------------------------------------------
+r478 | vhc08 | 2012-03-17 00:45:09 +0000 (Sat, 17 Mar 2012) | 2 lines
+
+Optimised the construction of H and dH by using symmetry
+
+------------------------------------------------------------------------
+r477 | dmr110 | 2012-03-16 23:07:41 +0000 (Fri, 16 Mar 2012) | 2 lines
+
+changed thermostat to take into account fact that ttol is a fraction of t
+
+------------------------------------------------------------------------
+r476 | dmr110 | 2012-03-16 23:03:55 +0000 (Fri, 16 Mar 2012) | 2 lines
+
+changed moldycat to create restart files every enegy_out_steps so  can restart simulation if it crashes
+
+------------------------------------------------------------------------
+r474 | vhc08 | 2012-03-16 17:49:31 +0000 (Fri, 16 Mar 2012) | 2 lines
+
+Changed a few things in DyMat module
+
+------------------------------------------------------------------------
+r473 | bk308 | 2012-03-16 17:00:00 +0000 (Fri, 16 Mar 2012) | 2 lines
+
+Have started implementing openmp
+
+------------------------------------------------------------------------
+r472 | bk308 | 2012-03-16 16:21:31 +0000 (Fri, 16 Mar 2012) | 7 lines
+
+Added moldyphon standalone executable for doing phonon density of states calculations.
+I couldn't think of a better way of presenting the results of our phonon calculations.
+
+It compiles along with the main moldycat executable and is run like
+./moldyphon seed
+and tries to open up a file of form [seed.freq]. I made a sample input file called test to give an example of what this would look like. We simply need to write the results of our phonon spectrum in a similar format and read them in (and maybe multiply everything up by a suitable normalisation)
+
+------------------------------------------------------------------------
+r471 | dmr110 | 2012-03-16 16:03:49 +0000 (Fri, 16 Mar 2012) | 2 lines
+
+changed how T is calculated
+
+------------------------------------------------------------------------
+r470 | mmk07 | 2012-03-16 14:18:50 +0000 (Fri, 16 Mar 2012) | 8 lines
+
+Made some corrections to the c44 function, but now the answers are even worse...
+
+One problem is that cell.volume is returning the wrong answer. When I do V_act=a.(b x c) for lattice vectors 
+a,b,c I seem to get the right answer i.e. V_act is being conserved by the strain, as it should be, 
+unlike cell.volume. 
+
+I really have no idea what's wrong...
+
+------------------------------------------------------------------------
+r469 | mmk07 | 2012-03-16 12:32:42 +0000 (Fri, 16 Mar 2012) | 4 lines
+
+Addded tama's diamond input file that Tairan gave me.
+
+Using the current c44 method we now get the same results as them: 20 for periodic conditions and 1 for open. The actual value is 5. So now both groups' methods are the same, but wrong. Will work with them to find out how.
+
+------------------------------------------------------------------------
+r468 | bk308 | 2012-03-16 11:30:12 +0000 (Fri, 16 Mar 2012) | 2 lines
+
+Renamed forceeval vdw to lj
+
+------------------------------------------------------------------------
+r467 | bk308 | 2012-03-16 11:27:14 +0000 (Fri, 16 Mar 2012) | 2 lines
+
+Started commenting optimisation routines
+
+------------------------------------------------------------------------
+r466 | bk308 | 2012-03-16 10:50:53 +0000 (Fri, 16 Mar 2012) | 13 lines
+
+Added two new parameters to input file and simulation object:
+
+PHONON_DISPLACEMENT 0.0001
+
+PHONON_Q_POINTS 
+BEGIN LIST
+0.5 0.3 0.2
+0.0 0.0 0.0 
+END LIST
+
+This will then be read in by Vincent's new module to perform phonon calculations at the specified q points.
+
+
+------------------------------------------------------------------------
+r465 | bk308 | 2012-03-16 09:50:13 +0000 (Fri, 16 Mar 2012) | 4 lines
+
+Small change to phonon calculator.
+
+Rather than adding a displacement component and then subtracting it away again, we now store the old position and simpy reassign it at the end. This should hopefully reduce floating point error accumulation.
+
+------------------------------------------------------------------------
+r464 | bk308 | 2012-03-16 08:32:53 +0000 (Fri, 16 Mar 2012) | 8 lines
+
+Added TASK flag to input file to specify either
+1) ENERGY
+2) MD
+or
+3) PHONON
+
+Each option works with the optimiser
+
+------------------------------------------------------------------------
+r463 | bk308 | 2012-03-16 08:13:57 +0000 (Fri, 16 Mar 2012) | 2 lines
+
+Added some diagnostic messages to be ouput to user in case relaxer fails and during parsing of input.
+
+------------------------------------------------------------------------
+r462 | vhc08 | 2012-03-16 02:49:49 +0000 (Fri, 16 Mar 2012) | 2 lines
+
+Updated dynamical matrix module to calculate phonons, still not quite right
+
+------------------------------------------------------------------------
+r461 | bk308 | 2012-03-16 00:47:36 +0000 (Fri, 16 Mar 2012) | 3 lines
+
+Cleaned up some unused source code files and removed includes of some obsolete files. Added obligatory 'AUTHORS' file.
+
+
+------------------------------------------------------------------------
+r460 | bk308 | 2012-03-16 00:28:33 +0000 (Fri, 16 Mar 2012) | 21 lines
+
+Have added lots of stuff to our CMakeList.txt file to make it search for various dependencies and hopefully resolve them for us.
+I've also explicityl set two type of build - a debug build which is slow for debugging anddiagnostics and an optimised release build.
+
+If you type
+ cmake .
+ you will get the same behaviour as we had before.
+
+ If you want a stricter debug mode - i.e to use with gdb or gprof or whatever other tool, use:
+
+ cmake . -DCMAKE_BUILD_TYPE="Debug"
+
+ If you want a fast release build use
+
+ cmake . -DCMAKE_BUILD_TYPE="Release"
+
+Cmake will then generate a new Makefile. You then need to run make again to compile the new executable.
+
+NOTE: the debug exectuble is called moldycat_dbg.
+
+I've managed to get rid of some of the compiler/linker messages we had before. Will need to test our cmake file on a fresh test system for comparison.
+
+------------------------------------------------------------------------
+r459 | bk308 | 2012-03-15 23:23:42 +0000 (Thu, 15 Mar 2012) | 12 lines
+
+Now have 4 optimisation algorithms:
+DMDCM
+DMDUM
+CG
+SD
+(in no particular order)
+
+I Invite you to give them a try on the diamond sytem:
+./moldycat diamond
+
+(you may want to increase the number of RELAX_STEPS and you may find not all algorithms are able to converge within the requested force tolerance)
+
+------------------------------------------------------------------------
+r458 | ah808 | 2012-03-15 22:44:13 +0000 (Thu, 15 Mar 2012) | 1 line
+
+Program to generate HCP structure and get out EV curves
+------------------------------------------------------------------------
+r456 | bk308 | 2012-03-15 21:52:19 +0000 (Thu, 15 Mar 2012) | 2 lines
+
+Added dmdum.hpp missing on previous commit.
+
+------------------------------------------------------------------------
+r455 | bk308 | 2012-03-15 21:50:52 +0000 (Thu, 15 Mar 2012) | 3 lines
+
+added DMDUM (damped molecular dynamics with uncoupled modes) optimiser to moldycat optimiser suite. Seems to work a lot m
+ore efficiently than DMDCM and is more stable too (as works on forces directly rather than on energies when calculating damping coefficients). I recommended using this to find relaxed structures before phonon calculations for the time beingi.
+
+------------------------------------------------------------------------
+r452 | ah808 | 2012-03-15 21:26:24 +0000 (Thu, 15 Mar 2012) | 1 line
+
+FCC for Dan - I define 4 atoms in the unit cell and supercell it to get the FCC lattice
+------------------------------------------------------------------------
+r451 | mmk07 | 2012-03-15 21:17:13 +0000 (Thu, 15 Mar 2012) | 2 lines
+
+Done more work on c44. Getting rubbish for big cells but with just the unit cell it seems ok. I think it may be a problem with the diamond unit cell/PBCs, so will try and find some data.
+
+------------------------------------------------------------------------
+r449 | mmk07 | 2012-03-14 23:04:19 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+small compilation error
+
+------------------------------------------------------------------------
+r448 | mmk07 | 2012-03-14 23:00:37 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+Started working on the c44 bit. Don't use atm - it's completely wrong.
+
+------------------------------------------------------------------------
+r447 | mmk07 | 2012-03-14 21:02:42 +0000 (Wed, 14 Mar 2012) | 20 lines
+
+Added code to generate EV curves (anal/evStretcher) - this will automatically scale the cell and print out the energy as a function of nearest neighbour separation. Probably won't work for non-ortho systems atm.
+
+Also added code to generate graphene input file. Like the last one it accounts for PBC, but this one definitely has the cell boundaries in the right place (gives the correct elastic constant and EV curve).
+
+Sample code for all of this is at the bottom of moldycat.cpp (currently commented out), but here it is for reference:
+
+    //elasticConstants sample code:
+    unitcell cell = readunitcell("inputs/graphene.unit");
+    atom_list atoms = readpositions("inputs/graphene.txt", cell);
+    int scaleDir[3] = {2,1,1};
+    elasticConstants(atoms, cell, scaleDir,  "outputs/elastic_constants_graphene");
+
+    //Generate graphite sample code:
+    unitcell cell2 = readunitcell("inputs/graphene.unit");
+    atom_list graphene(80);
+    generateGraphite(graphene, cell2);
+    //Generate ev curves sample code:
+    evStretcher(graphene, cell2, scaleDir, 1.42);
+
+
+------------------------------------------------------------------------
+r446 | mmk07 | 2012-03-14 19:55:09 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+Made a couple of changes to elastic constants module. Seems to be working for graphene and diamond for c11-c12 now.
+
+------------------------------------------------------------------------
+r445 | vhc08 | 2012-03-14 17:37:23 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+Updated dynamical matrix module
+
+------------------------------------------------------------------------
+r444 | vhc08 | 2012-03-14 17:36:53 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+Added moldcat.cpp for phonons
+
+------------------------------------------------------------------------
+r443 | dmr110 | 2012-03-14 15:53:40 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+v small change
+
+------------------------------------------------------------------------
+r442 | dmr110 | 2012-03-14 15:53:22 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+moldycat will now do rdfs. Some parameters need to be put in sim object i think
+
+------------------------------------------------------------------------
+r441 | vhc08 | 2012-03-14 14:58:40 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+Added dynamical matrix test module
+
+------------------------------------------------------------------------
+r440 | bk308 | 2012-03-14 13:14:46 +0000 (Wed, 14 Mar 2012) | 3 lines
+
+minor change to shm forces
+
+
+------------------------------------------------------------------------
+r439 | mmk07 | 2012-03-14 12:14:01 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+Removed the additional line Marc erroneously added to moduleG.
+
+------------------------------------------------------------------------
+r438 | bk308 | 2012-03-14 12:07:42 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+Changed forceeval to forceeval_shm for shm
+
+------------------------------------------------------------------------
+r430 | mmk07 | 2012-03-14 00:45:09 +0000 (Wed, 14 Mar 2012) | 3 lines
+
+Made elastic constants even more general - can now read in scaling direction from main. Bottom of moldycat.cpp has the example code. 
+
+Updated a couple of graphs - current version is diamond scaled by {2,2,2}.
+------------------------------------------------------------------------
+r429 | mmk07 | 2012-03-14 00:15:48 +0000 (Wed, 14 Mar 2012) | 5 lines
+
+Made elasticConstants a bit clearer and more general. 
+
+Added code to moldycat.cpp to show how to use it. 
+
+Generated a diamond graph and stuck it in the analysis folder. The fitted parameters are in the .fit file. The relevant quantity (C11-C12) is 'a'.
+------------------------------------------------------------------------
+r428 | vhc08 | 2012-03-14 00:04:32 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+changed function name to prevent compilation error
+
+------------------------------------------------------------------------
+r427 | vhc08 | 2012-03-14 00:03:15 +0000 (Wed, 14 Mar 2012) | 2 lines
+
+Added a new testing module for forces
+
+------------------------------------------------------------------------
+r425 | vhc08 | 2012-03-13 23:14:54 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Removed vOmItInG to terminal
+
+------------------------------------------------------------------------
+r424 | mec07 | 2012-03-13 23:01:58 +0000 (Tue, 13 Mar 2012) | 1 line
+
+Included outputting the unitcell
+------------------------------------------------------------------------
+r422 | vhc08 | 2012-03-13 22:48:47 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Fixed some crazy bug that was resulting in none 0 forces for perfectly symmetric structures...
+
+------------------------------------------------------------------------
+r421 | mmk07 | 2012-03-13 22:41:42 +0000 (Tue, 13 Mar 2012) | 1 line
+
+added statement to include elastic constant file
+------------------------------------------------------------------------
+r420 | mec07 | 2012-03-13 22:39:08 +0000 (Tue, 13 Mar 2012) | 1 line
+
+Had to rethink a couple of things for restarting. The unitcell was required, so edited module G to produce that and then included another parser in module A to read it in and give that to the restarted program. It should all work now, and I've turned off the vomit.
+------------------------------------------------------------------------
+r419 | mec07 | 2012-03-13 22:13:46 +0000 (Tue, 13 Mar 2012) | 1 line
+
+Made a couple of changes to module G. I added a line in at the end of the file - for compatibility with jmol - and added a functionality called writeUnitcell(const simulation& sim) which writes the unitcell out to file (default file is outputs/unitcell.out).
+------------------------------------------------------------------------
+r417 | vhc08 | 2012-03-13 21:59:35 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+For Musab (testing TB forces)
+
+------------------------------------------------------------------------
+r416 | mec07 | 2012-03-13 21:41:16 +0000 (Tue, 13 Mar 2012) | 1 line
+
+Added the ability to read in velocities to module A. If restart flag is on then read in the positions from outputs/positions.end and the velocities from outputs/velocities.end, which are recorded at the end of the MD.
+------------------------------------------------------------------------
+r415 | ah808 | 2012-03-13 21:15:09 +0000 (Tue, 13 Mar 2012) | 1 line
+
+small mistake corrected
+------------------------------------------------------------------------
+r414 | ah808 | 2012-03-13 21:13:21 +0000 (Tue, 13 Mar 2012) | 1 line
+
+FCC works as well
+------------------------------------------------------------------------
+r412 | mec07 | 2012-03-13 20:46:18 +0000 (Tue, 13 Mar 2012) | 1 line
+
+included a positions.end and velocitied.end into moldycat.cpp
+------------------------------------------------------------------------
+r411 | bk308 | 2012-03-13 20:44:23 +0000 (Tue, 13 Mar 2012) | 3 lines
+
+Strangely the DMD algorithm is only stable for large diamond systems (ie. 2x2x2) supercells. Some of the forces are converging very much more slowly. Will look into DMD with uncoupled modes. 
+:(
+
+------------------------------------------------------------------------
+r409 | mmk07 | 2012-03-13 19:51:18 +0000 (Tue, 13 Mar 2012) | 5 lines
+
+Elastic constant for c11-c12 seems to be working.
+Gives a value of approximately 6.49, compared to 6.22 (the paper's) and 6.15 (TAMA's).
+Maybe an optimised diamond structure will help, as right now it simply reads in the position
+of the 8 diamond atoms from diamond.txt.
+
+------------------------------------------------------------------------
+r407 | mmk07 | 2012-03-13 18:54:20 +0000 (Tue, 13 Mar 2012) | 4 lines
+
+Code seems to be ok for elasticConstants for c11-c12 e.g. cell volume is conserved after the transformation. 
+However, buildHamiltonian is giving tons of nans...
+
+
+------------------------------------------------------------------------
+r406 | bk308 | 2012-03-13 18:38:46 +0000 (Tue, 13 Mar 2012) | 3 lines
+
+Replaced CG with VERY BASIC SD for time being. Will add variable time step to SD. Hopefully this means we wont need CG.
+
+
+------------------------------------------------------------------------
+r405 | mmk07 | 2012-03-13 18:22:38 +0000 (Tue, 13 Mar 2012) | 1 line
+
+added the energies for elasticConstants (only c11-c12 set up so far - still need to test)
+------------------------------------------------------------------------
+r404 | ah808 | 2012-03-13 18:12:51 +0000 (Tue, 13 Mar 2012) | 1 line
+
+BCC works f*** yeah
+------------------------------------------------------------------------
+r403 | dmr110 | 2012-03-13 18:03:25 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+undid more changes to unitcell.cpp (i.e. un broke it)
+
+------------------------------------------------------------------------
+r402 | mmk07 | 2012-03-13 18:03:13 +0000 (Tue, 13 Mar 2012) | 1 line
+
+added the general framework for the elastic constants (the previous version was totally wrong)
+------------------------------------------------------------------------
+r401 | bk308 | 2012-03-13 17:50:16 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Undid changes to unitcell.
+
+------------------------------------------------------------------------
+r400 | bk308 | 2012-03-13 17:28:01 +0000 (Tue, 13 Mar 2012) | 8 lines
+
+Added:
+FORCE_TOL
+RESTART flags to input file
+Renamed TOTAL_STEPS to MD_STEPS
+
+Made some changes to uncell.cpp
+Now returning diff and dist in S (orthorhombic) space
+
+------------------------------------------------------------------------
+r398 | dmr110 | 2012-03-13 16:40:47 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+corrected small mistakes
+
+------------------------------------------------------------------------
+r397 | dmr110 | 2012-03-13 16:33:27 +0000 (Tue, 13 Mar 2012) | 6 lines
+
+fixed an obvious mistake in module A probably caused by copy+paste
+
+RELAX_STEPS now no longer writes over the TIME_STEP
+
+
+
+------------------------------------------------------------------------
+r396 | dmr110 | 2012-03-13 16:21:58 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+added missing semi-colon
+
+------------------------------------------------------------------------
+r395 | dmr110 | 2012-03-13 16:21:28 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+added temperature printout to file
+
+------------------------------------------------------------------------
+r392 | bk308 | 2012-03-13 15:37:00 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Changed andersen thermostat on recommendation of team TAMA. Apperently we should not be updating all velocities. Only those for which RAND < dt * attempt frequency. This appears to agree with Frenkel & Smit
+
+------------------------------------------------------------------------
+r391 | mmk07 | 2012-03-13 14:57:48 +0000 (Tue, 13 Mar 2012) | 5 lines
+
+Moved all the inputs to an input folder. 
+You can still just enter the filename when reading positions etc. e.g. params.in instead of inputs/params.in - moduleA should take care of this.
+Similarly moduleG (writePositions/writeVelocities), will write to outputs/.
+However, if you want to manually write stuff to file you need to put outputs/ in front of the filename.
+
+------------------------------------------------------------------------
+r390 | bk308 | 2012-03-13 14:54:20 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Corrected CG algorithm to use old h value to accelerate finding of minimum.
+
+------------------------------------------------------------------------
+r389 | bk308 | 2012-03-13 14:20:55 +0000 (Tue, 13 Mar 2012) | 4 lines
+
+Tested CG on a perturbed diamond structure. Seems to work.
+
+Will add code to check if CG step successful and default to Steepest Descents step if not.
+
+------------------------------------------------------------------------
+r388 | bk308 | 2012-03-13 13:55:55 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Moved cell size check to supersize method.
+
+------------------------------------------------------------------------
+r387 | bk308 | 2012-03-13 13:37:58 +0000 (Tue, 13 Mar 2012) | 3 lines
+
+Added RELAX_STEPS options to specify max. number of timesteps to iterate relaxation algorithm.
+Added validation to unitcell.cpp to ensure unitcell sides are at least 5.2A each.
+
+------------------------------------------------------------------------
+r386 | bk308 | 2012-03-13 13:06:52 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Fixed spurious output from andersen module. More progress on CG but still no cigar!
+
+------------------------------------------------------------------------
+r385 | bk308 | 2012-03-13 12:45:03 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Fixed small problem in optFactory. Now looking for correct tokens.
+
+------------------------------------------------------------------------
+r384 | bk308 | 2012-03-13 12:41:15 +0000 (Tue, 13 Mar 2012) | 3 lines
+
+Added "RELAXER" option to specify structural optimisation algorithm to use.
+DMD is supported and CG is on the way.
+
+------------------------------------------------------------------------
+r383 | bk308 | 2012-03-13 12:21:51 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Fixed andersen. 
+
+------------------------------------------------------------------------
+r382 | bk308 | 2012-03-13 12:02:59 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Corrected minor memory leak as relaxer was never deallocated.
+
+------------------------------------------------------------------------
+r381 | bk308 | 2012-03-13 11:57:40 +0000 (Tue, 13 Mar 2012) | 4 lines
+
+Added a nothermo thermostat for simulations within the NVE ensemble.
+
+Barebones of CG optimiser. Will need some more work.
+
+------------------------------------------------------------------------
+r379 | bk308 | 2012-03-13 09:52:15 +0000 (Tue, 13 Mar 2012) | 2 lines
+
+Small bug fixes to get rid of compiler errors.
+
+------------------------------------------------------------------------
+r378 | mec07 | 2012-03-13 02:15:56 +0000 (Tue, 13 Mar 2012) | 1 line
+
+Creates the ev curves now.
+------------------------------------------------------------------------
+r377 | mec07 | 2012-03-13 02:03:12 +0000 (Tue, 13 Mar 2012) | 1 line
+
+Updated the maximum length of a line that can be skipped in one go in module A
+------------------------------------------------------------------------
+r376 | mec07 | 2012-03-13 01:55:32 +0000 (Tue, 13 Mar 2012) | 1 line
+
+Cleaned up module A. It looks a lot nicer now, and it has slightly better functionality. The only thing is that if something is left blank in the input file, it reports an error, and tells you where it is in the input file. I think that this is OK. Before the plan was to then use a default value, but this could take the user by surprise
+------------------------------------------------------------------------
+r375 | mec07 | 2012-03-13 01:39:30 +0000 (Tue, 13 Mar 2012) | 1 line
+
+Currently working. I am about to do a large revamp though
+------------------------------------------------------------------------
+r374 | mec07 | 2012-03-13 00:42:18 +0000 (Tue, 13 Mar 2012) | 1 line
+
+What I mean is that the bug is fixed, I am just confused as to why it didn't svn commit properly
+------------------------------------------------------------------------
+r373 | mec07 | 2012-03-13 00:39:47 +0000 (Tue, 13 Mar 2012) | 1 line
+
+Bug wasn't fixed, I'm confused why...
+------------------------------------------------------------------------
+r372 | mmk07 | 2012-03-12 23:48:18 +0000 (Mon, 12 Mar 2012) | 1 line
+
+commented out a bunch of stuff that was causing warnings
+------------------------------------------------------------------------
+r371 | mmk07 | 2012-03-12 23:41:02 +0000 (Mon, 12 Mar 2012) | 1 line
+
+accidentally deleted argc/argv from moldycat
+------------------------------------------------------------------------
+r369 | mec07 | 2012-03-12 23:39:39 +0000 (Mon, 12 Mar 2012) | 1 line
+
+Fixed a few things, e.g. graphene 3
+------------------------------------------------------------------------
+r367 | mmk07 | 2012-03-12 22:28:58 +0000 (Mon, 12 Mar 2012) | 1 line
+
+murdered that damn cat
+------------------------------------------------------------------------
+r366 | dmr110 | 2012-03-12 22:18:36 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+added it now!
+
+------------------------------------------------------------------------
+r365 | dmr110 | 2012-03-12 22:17:19 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+int step=0; missing
+
+------------------------------------------------------------------------
+r364 | dmr110 | 2012-03-12 22:10:37 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+added geom opt to moldycat
+
+------------------------------------------------------------------------
+r362 | bk308 | 2012-03-12 21:44:03 +0000 (Mon, 12 Mar 2012) | 8 lines
+
+Have fixed some things pertaining to the SPRK integrators.
+
+We had a problem with our cmake file as it was ignoring our compiler flags. I have fixed this now. We have a few warnings as the compiler is now set to be much stricter. I fixed the more serious ones.
+
+There are two lines, one of which should be uncommented for development and another for production. I think there is a good factor of three speed up when switching on optimisations.
+
+I will begin profiling the code and make changes to speed things up. I suspect OpenMP will be important in the H, dH and DM code.
+
+------------------------------------------------------------------------
+r360 | mec07 | 2012-03-12 21:34:48 +0000 (Mon, 12 Mar 2012) | 1 line
+
+Added the cat to the output for the moldycat.cpp file - very important please don't delete./moldycat  
+------------------------------------------------------------------------
+r359 | mmk07 | 2012-03-12 21:32:51 +0000 (Mon, 12 Mar 2012) | 1 line
+
+commiting tbforces tester for 4 atom system.
+------------------------------------------------------------------------
+r358 | ah808 | 2012-03-12 21:23:04 +0000 (Mon, 12 Mar 2012) | 1 line
+
+for marc
+------------------------------------------------------------------------
+r357 | ah808 | 2012-03-12 21:18:19 +0000 (Mon, 12 Mar 2012) | 1 line
+
+
+------------------------------------------------------------------------
+r356 | mec07 | 2012-03-12 21:14:56 +0000 (Mon, 12 Mar 2012) | 1 line
+
+Trying to fix supercell method. Attempt 2.
+------------------------------------------------------------------------
+r355 | mec07 | 2012-03-12 21:11:54 +0000 (Mon, 12 Mar 2012) | 1 line
+
+Trying to fix supercell method. Attempt 1.
+------------------------------------------------------------------------
+r354 | dmr110 | 2012-03-12 21:04:14 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+changed moldycat to take into account the new thermoFactory
+
+------------------------------------------------------------------------
+r353 | dmr110 | 2012-03-12 21:03:33 +0000 (Mon, 12 Mar 2012) | 4 lines
+
+created a thermoFactory method much like that for the integrator that sets up the required thermostat.
+
+NB none of the thermostats yet work/have been tested.
+
+------------------------------------------------------------------------
+r351 | dmr110 | 2012-03-12 20:42:02 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+thermostat application commented out. 
+
+------------------------------------------------------------------------
+r350 | ah808 | 2012-03-12 19:15:21 +0000 (Mon, 12 Mar 2012) | 1 line
+
+for marc coury to play with
+------------------------------------------------------------------------
+r349 | dmr110 | 2012-03-12 17:46:21 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+minor include change to moldycat
+
+------------------------------------------------------------------------
+r348 | dmr110 | 2012-03-12 17:45:52 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+I have got rid of all the crap from moldycat.cpp and made it so that it runs MD according to the parameters in the input file.
+
+------------------------------------------------------------------------
+r347 | dmr110 | 2012-03-12 17:32:13 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+added method to module G to write velocities to file
+
+------------------------------------------------------------------------
+r346 | dmr110 | 2012-03-12 17:08:21 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+removed some vomit
+
+------------------------------------------------------------------------
+r343 | ah808 | 2012-03-12 17:02:59 +0000 (Mon, 12 Mar 2012) | 1 line
+
+diamond nearest neighbour sep vs energy finally works
+------------------------------------------------------------------------
+r342 | dmr110 | 2012-03-12 17:01:45 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+forceeval - should be no change
+
+------------------------------------------------------------------------
+r341 | dmr110 | 2012-03-12 16:59:57 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+moldycat allows simulations to be run in current form
+
+------------------------------------------------------------------------
+r340 | dmr110 | 2012-03-12 16:58:46 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+test method energycons.hpp minor changes
+
+------------------------------------------------------------------------
+r339 | dmr110 | 2012-03-12 16:57:38 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+small change to dummmy forceeval
+
+------------------------------------------------------------------------
+r338 | dmr110 | 2012-03-12 16:56:27 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+working forces in module E!!
+
+------------------------------------------------------------------------
+r336 | dmr110 | 2012-03-12 16:40:36 +0000 (Mon, 12 Mar 2012) | 3 lines
+
+changed testing module
+
+
+------------------------------------------------------------------------
+r335 | dmr110 | 2012-03-12 16:39:51 +0000 (Mon, 12 Mar 2012) | 4 lines
+
+uncommented force calculation in sprk.hpp. 
+
+BENJY: needs to be adapted to take account of periodic BCs
+
+------------------------------------------------------------------------
+r334 | dmr110 | 2012-03-12 16:38:07 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+introduced if(TINY) as a stop gap in forces
+
+------------------------------------------------------------------------
+r333 | mec07 | 2012-03-12 16:23:12 +0000 (Mon, 12 Mar 2012) | 1 line
+
+Increase the minimum separation to 0.9 A, as that is when the repulsive force starts to attract. This change was made in src/atom/atom.cpp, in the function to check the atom separation which is called after the positions have been read in module A.
+------------------------------------------------------------------------
+r332 | mmk07 | 2012-03-12 14:10:17 +0000 (Mon, 12 Mar 2012) | 1 line
+
+removed moduleF to avoid confusion - all integration should be done in the stepper class
+------------------------------------------------------------------------
+r331 | mmk07 | 2012-03-12 12:25:53 +0000 (Mon, 12 Mar 2012) | 1 line
+
+removed cout statements from unitcell for daniel
+------------------------------------------------------------------------
+r330 | mmk07 | 2012-03-12 12:19:50 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+Modified unitcell class, so that if the angle is approximately M_PI/2 it just sets the S matrix to 1 (we were getting small round-off errors of approximately 1E-17 before).
+
+------------------------------------------------------------------------
+r328 | mmk07 | 2012-03-12 00:49:35 +0000 (Mon, 12 Mar 2012) | 2 lines
+
+Adding file to work out the elasticConstants. The current method is returning erroneous answers, but it's a start.
+
+------------------------------------------------------------------------
+r327 | bk308 | 2012-03-12 00:25:21 +0000 (Mon, 12 Mar 2012) | 10 lines
+
+Added general SPRK integrator. Needs extensive testing but the barebones are there.
+I like using a factory to build an integrator/optimiser/thermostat from a simulator.
+
+This will allow us to do things like:
+
+stepperbase* integrator =  integratorFactory(const simulation& sim,const atom_list& atoms,forceeval& forcer);
+
+whence we are free to use the integrator as before. Will test all this code tomorrow.
+
+
+------------------------------------------------------------------------
+r326 | bk308 | 2012-03-11 23:07:12 +0000 (Sun, 11 Mar 2012) | 9 lines
+
+I was getting frustrated that our tight binding forces are not yet entirely trustworthy so I implemented a van der Waals pairwise potential. It's textbook stuff and seems to work.
+
+If you want to do some testing on the dynamics and want to assume the forces are correct change the forceeval.hpp include to forceeval_vdW.hpp.
+This is a better test as it will handle arbitrary numbers of atoms rather than my previous SHM test code. Will test my optimiser against it tomorrow.
+
+Apparently we are getting xy forces from the tight binding contribution when we don't expect them - to rule out the possibility of unitiliased memory in vect3s causing this, I have made every vect3 write it's memory to zero on initialisation before it is first used.
+
+I suspect however that this originates from imperfect diagonalisation in our eigen solver. Guess we shall soon see!
+
+------------------------------------------------------------------------
+r325 | mec07 | 2012-03-11 19:16:03 +0000 (Sun, 11 Mar 2012) | 1 line
+
+Updated the commenting in module A.
+------------------------------------------------------------------------
+r324 | ah808 | 2012-03-11 18:48:27 +0000 (Sun, 11 Mar 2012) | 1 line
+
+file for diamond energy-vol curve
+------------------------------------------------------------------------
+r323 | vhc08 | 2012-03-11 18:03:08 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+Added TINY check
+
+------------------------------------------------------------------------
+r322 | dmr110 | 2012-03-11 17:32:16 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+bullshit removed from verify ev graphite
+
+------------------------------------------------------------------------
+r321 | dmr110 | 2012-03-11 17:27:19 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+can use moldycat to run simulation now
+
+------------------------------------------------------------------------
+r320 | dmr110 | 2012-03-11 17:25:45 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+removed hard coded zeros in module E
+
+------------------------------------------------------------------------
+r319 | dmr110 | 2012-03-11 17:24:40 +0000 (Sun, 11 Mar 2012) | 1 line
+
+
+------------------------------------------------------------------------
+r318 | dmr110 | 2012-03-11 17:23:56 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+Benjys fake forceeval is now called forceeval_DUMMY.hpp
+
+------------------------------------------------------------------------
+r317 | dmr110 | 2012-03-11 17:22:54 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+forceeval is back to REAL
+
+------------------------------------------------------------------------
+r316 | vhc08 | 2012-03-11 17:19:16 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+Removed VOMITTING
+
+------------------------------------------------------------------------
+r315 | dmr110 | 2012-03-11 17:13:48 +0000 (Sun, 11 Mar 2012) | 4 lines
+
+added coordination number to radial.hpp-although not correct and I'm not sure why.
+
+still problems with normalisation 
+
+------------------------------------------------------------------------
+r314 | vhc08 | 2012-03-11 17:09:30 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+Think I've fixed TB forces
+
+------------------------------------------------------------------------
+r313 | ah808 | 2012-03-11 16:42:53 +0000 (Sun, 11 Mar 2012) | 1 line
+
+made changes to the graphite file, the test for diamond is in here also
+------------------------------------------------------------------------
+r312 | mmk07 | 2012-03-11 16:15:57 +0000 (Sun, 11 Mar 2012) | 1 line
+
+removed vomit for daniel
+------------------------------------------------------------------------
+r310 | mmk07 | 2012-03-11 16:02:27 +0000 (Sun, 11 Mar 2012) | 1 line
+
+added calc_energy method to forceeval_REAL
+------------------------------------------------------------------------
+r309 | mec07 | 2012-03-11 15:32:50 +0000 (Sun, 11 Mar 2012) | 1 line
+
+fixed error of infinite while loops when input file is not corrrect, whoopeeeee
+------------------------------------------------------------------------
+r308 | dmr110 | 2012-03-11 15:29:46 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+updated testing
+
+------------------------------------------------------------------------
+r307 | dmr110 | 2012-03-11 15:15:29 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+ I am a fucking idiot. Apologies.
+
+------------------------------------------------------------------------
+r306 | dmr110 | 2012-03-11 14:41:47 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+bracket changes
+
+------------------------------------------------------------------------
+r304 | vhc08 | 2012-03-11 14:28:26 +0000 (Sun, 11 Mar 2012) | 3 lines
+
+Fixed moduleC again
+
+
+------------------------------------------------------------------------
+r303 | vhc08 | 2012-03-11 14:26:04 +0000 (Sun, 11 Mar 2012) | 2 lines
+
+Fixed module C
+
+------------------------------------------------------------------------
+r302 | mec07 | 2012-03-11 14:12:24 +0000 (Sun, 11 Mar 2012) | 1 line
+
+Turned off debug flag. It all seems to work now.
+------------------------------------------------------------------------
+r299 | mec07 | 2012-03-11 13:55:50 +0000 (Sun, 11 Mar 2012) | 1 line
+
+Corrected supercell functionality and added a {seed}_param.out file
+------------------------------------------------------------------------
+r295 | mec07 | 2012-03-11 12:49:03 +0000 (Sun, 11 Mar 2012) | 1 line
+
+Forgot to commit verifyEV_diamond yesterday
+------------------------------------------------------------------------
+r294 | mec07 | 2012-03-10 22:37:51 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Awesome, Got what I wanted to work in verifyEV_graphite.hpp. My error was to put the *h outside the brackets of the vect3, but it needs to go inside, i.e. postemp = vect3(new_atoms[i].pos*h);
+------------------------------------------------------------------------
+r293 | mec07 | 2012-03-10 20:40:21 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Changed to take forceeval_REAL.hpp and the energies are still wrong.
+------------------------------------------------------------------------
+r292 | mec07 | 2012-03-10 20:37:18 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Now verifyEV_graphite works. Only the energies are wrong.
+------------------------------------------------------------------------
+r291 | mec07 | 2012-03-10 20:29:06 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Wohoo some progress! It still doesn't quite work yet...
+------------------------------------------------------------------------
+r290 | mec07 | 2012-03-10 19:49:36 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Not working but nearly there, just need to add multiply by scalar to vect3, or atoms class or somethign lik that.
+------------------------------------------------------------------------
+r289 | mec07 | 2012-03-10 19:46:28 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Not working but nearly there, just need to add multiply by scalar to vect3, or atoms class or somethign lik that.
+------------------------------------------------------------------------
+r288 | dmr110 | 2012-03-10 19:41:47 +0000 (Sat, 10 Mar 2012) | 2 lines
+
+changes to normalisation in radial.hpp
+
+------------------------------------------------------------------------
+r287 | mec07 | 2012-03-10 19:38:19 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Updated...
+------------------------------------------------------------------------
+r286 | mec07 | 2012-03-10 19:33:49 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Updated removed unncessary bits
+------------------------------------------------------------------------
+r285 | ah808 | 2012-03-10 19:31:14 +0000 (Sat, 10 Mar 2012) | 1 line
+
+updated graphite file
+------------------------------------------------------------------------
+r284 | bk308 | 2012-03-10 19:24:49 +0000 (Sat, 10 Mar 2012) | 2 lines
+
+Changed volume to cell.volume() method as this takes care of arbitrary geometries.
+
+------------------------------------------------------------------------
+r283 | mec07 | 2012-03-10 19:24:46 +0000 (Sat, 10 Mar 2012) | 1 line
+
+resubmitting.
+------------------------------------------------------------------------
+r281 | dmr110 | 2012-03-10 18:04:10 +0000 (Sat, 10 Mar 2012) | 2 lines
+
+added radial.hpp include
+
+------------------------------------------------------------------------
+r280 | mec07 | 2012-03-10 17:20:23 +0000 (Sat, 10 Mar 2012) | 1 line
+
+example added to verifyEV_graphite.hpp
+------------------------------------------------------------------------
+r279 | mec07 | 2012-03-10 17:19:27 +0000 (Sat, 10 Mar 2012) | 1 line
+
+updated to show how verifyEV_graphite works with calling the input file from there.
+------------------------------------------------------------------------
+r278 | dmr110 | 2012-03-10 17:18:49 +0000 (Sat, 10 Mar 2012) | 2 lines
+
+radial distribution code. am in process of testing
+
+------------------------------------------------------------------------
+r277 | mec07 | 2012-03-10 17:18:44 +0000 (Sat, 10 Mar 2012) | 1 line
+
+example added to verifyEV_graphite.hpp
+------------------------------------------------------------------------
+r276 | mec07 | 2012-03-10 15:20:13 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Removed vomit output
+------------------------------------------------------------------------
+r275 | mec07 | 2012-03-10 15:17:29 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Corrected mistake in atom.cpp - my fault
+------------------------------------------------------------------------
+r274 | ah808 | 2012-03-10 15:10:30 +0000 (Sat, 10 Mar 2012) | 1 line
+
+
+------------------------------------------------------------------------
+r273 | mec07 | 2012-03-10 15:03:04 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Updated for consistency
+------------------------------------------------------------------------
+r272 | mec07 | 2012-03-10 14:59:51 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Updated for consistency
+------------------------------------------------------------------------
+r271 | mec07 | 2012-03-10 14:59:44 +0000 (Sat, 10 Mar 2012) | 1 line
+
+Updated for consistency
+------------------------------------------------------------------------
+r270 | mec07 | 2012-03-10 14:40:17 +0000 (Sat, 10 Mar 2012) | 2 lines
+
+Corrected some odd amendments to my code... It should now not create any problems.
+
+------------------------------------------------------------------------
+r269 | mec07 | 2012-03-10 14:25:34 +0000 (Sat, 10 Mar 2012) | 1 line
+
+updated atom.h to correspond to changes in module A
+------------------------------------------------------------------------
+r268 | mec07 | 2012-03-10 14:24:59 +0000 (Sat, 10 Mar 2012) | 1 line
+
+updated atom.cpp
+------------------------------------------------------------------------
+r267 | bk308 | 2012-03-10 10:00:01 +0000 (Sat, 10 Mar 2012) | 5 lines
+
+Musab:
+
+Your suspicions were correct - simply commenting out that line did break pretty much everything!
+Should be OK now until Marc gets a chance to look into it (I'm basically returning a simulation object with nonsense parameters rather than a dangling pointer as before)
+
+------------------------------------------------------------------------
+r266 | bk308 | 2012-03-10 09:55:16 +0000 (Sat, 10 Mar 2012) | 42 lines
+
+TO ALL: IMPORTANT::
+I had big problems with our forces and have so copied the current forceeval.hpp to forceeval_REAL.hpp and created a two atom dummy system to play with instead. 
+Once someone who knows what they are doing gets the forces working again we can simply remove my tester or copy it to forceeval_DUMMY.hpp should we need it in future.
+DO NOT EXPECT YOUR ENERGIES AND FORCES TO COME OUT CORRECTLY WITH THE CURRENT forceeval.hpp. MOLDYCAT WILL PROBABLY CRASH IF YOU TRY USE THE CURRENT DUMMY FORCER (AS IT WORKS ONLY ON PAIRS OF ATOMS). 
+
+We have our first geometry optimiser routine. It's based on damped molecular dynamics - basically just let the atoms do what they would do anyway and add a damping term proportional to the velocity.
+It automatically calculates the optimal damping and timestep as it goes to accelerate convergence - although you can override this if you know what you're doing. Here is a basic example:
+
+forceeval forcer = *forcer_ptr;
+optbase* relaxer = new dmdcm(forcer,atoms,100,1e-6);
+//This creates a damped molecular dynamics optimiser using the forceeval forcer,
+//                                                             atom_list atoms,
+//                                                             max_iterations = 100,
+//                                                             max_force_tol = 1e-6
+
+writePositions(atoms, 0);
+
+int step = 0;
+do
+{
+   writePositions(atoms,1);
+   cout << "Step " << step++
+   << "\nEnergy " << forcer.get_total_energy() << endl;    
+}
+while(relaxer->step(atoms,forcer));
+
+if(relaxer->is_converged())
+    cout << "Geometery relaxation successful" << endl;
+
+The full constructor signature is as follows:
+
+                dmdcm(forceeval forcer, const atom_list& atoms,int max_steps, double force_tol, int gamma_recal_steps = 15, int time_step_scaler = 10) 
+
+Will annotate the class fully at some point. I've basically just implemented the coupled modes part of:
+                        http://www.sciencedirect.com/science/article/pii/S0021999103003085
+
+If I have time, I will generalise this to uncoupled modes and perhaps add a SD/CG solver for good measure. The basi design is the same as for the thermostats and integrators.
+
+Step() will continue to return true until either max_iterations is reached or the force_tol is achieved. is_converged() tells you which of the cases applied. 
+
+You can view the output of test/relaxtest.hpp by opening positions.xyz in jmol to view the video of the relaxation.
+
+------------------------------------------------------------------------
+r260 | mmk07 | 2012-03-10 00:56:15 +0000 (Sat, 10 Mar 2012) | 8 lines
+
+@Marc: I've commented out line 298 of moduleA: sim_ptr = new simulation(...).
+This was causing problems with compiling the program. I imagine it's quite important
+to your module but I'm not really sure how it all works. 
+From a cursory glance it seems that you weren't providing enough options in the function -
+the class definition in simulation.hpp expects more.
+
+-Musab.
+
+------------------------------------------------------------------------
+r259 | mec07 | 2012-03-09 19:56:11 +0000 (Fri, 09 Mar 2012) | 1 line
+
+Updated to work with new sim class
+------------------------------------------------------------------------
+r258 | mec07 | 2012-03-09 19:55:54 +0000 (Fri, 09 Mar 2012) | 1 line
+
+Updated to work with new sim class
+------------------------------------------------------------------------
+r257 | mec07 | 2012-03-09 19:48:18 +0000 (Fri, 09 Mar 2012) | 1 line
+
+updating the simulation class. I'm very sorry if this causes any problems! To get around these just use an input file, like diamond_params.in and module A.
+------------------------------------------------------------------------
+r253 | vhc08 | 2012-03-09 16:06:25 +0000 (Fri, 09 Mar 2012) | 2 lines
+
+I <3 moldycat
+
+------------------------------------------------------------------------
+r252 | dmr110 | 2012-03-09 14:46:37 +0000 (Fri, 09 Mar 2012) | 2 lines
+
+small changes to module D tester
+
+------------------------------------------------------------------------
+r251 | dmr110 | 2012-03-09 14:35:14 +0000 (Fri, 09 Mar 2012) | 2 lines
+
+turned on repulsive forces
+
+------------------------------------------------------------------------
+r249 | dmr110 | 2012-03-09 14:23:44 +0000 (Fri, 09 Mar 2012) | 2 lines
+
+energycons takes read input file
+
+------------------------------------------------------------------------
+r248 | dmr110 | 2012-03-09 14:23:10 +0000 (Fri, 09 Mar 2012) | 2 lines
+
+ added Kb
+
+------------------------------------------------------------------------
+r247 | dmr110 | 2012-03-09 14:22:56 +0000 (Fri, 09 Mar 2012) | 2 lines
+
+moldycat reads in input file
+
+------------------------------------------------------------------------
+r246 | mec07 | 2012-03-09 13:17:37 +0000 (Fri, 09 Mar 2012) | 1 line
+
+commented out testEnergConservation() and added in the line simulation* sim_ptr;
+------------------------------------------------------------------------
+r245 | mec07 | 2012-03-09 13:16:40 +0000 (Fri, 09 Mar 2012) | 1 line
+
+updated energycons.hpp to correspond to the changes made in stepper classes
+------------------------------------------------------------------------
+r244 | mec07 | 2012-03-09 13:11:52 +0000 (Fri, 09 Mar 2012) | 1 line
+
+updated stepperbase.hpp to take a const simulation& sim argument instead of dt and total_steps.
+------------------------------------------------------------------------
+r243 | mec07 | 2012-03-09 13:11:15 +0000 (Fri, 09 Mar 2012) | 1 line
+
+updated verlet.hpp to take a const simulation& sim argument instead of dt and total_steps.
+------------------------------------------------------------------------
+r242 | dmr110 | 2012-03-09 12:59:22 +0000 (Fri, 09 Mar 2012) | 2 lines
+
+new cat
+
+------------------------------------------------------------------------
+r241 | vhc08 | 2012-03-09 11:45:43 +0000 (Fri, 09 Mar 2012) | 2 lines
+
+Fixed some sign problems
+
+------------------------------------------------------------------------
+r240 | bk308 | 2012-03-09 08:10:05 +0000 (Fri, 09 Mar 2012) | 8 lines
+
+Was getting irritated that moduleG.writePositions always writes to the same file irrespective of seed name. Thinking back to dOxon, this is bound to cause trouble.
+We now have an optional third parameter for filename. I suggest that the seed name will be used here:
+
+Prototype:
+
+void writePositions(atom_list& atoms, int append, string filename = "positions.xyz")
+
+
+------------------------------------------------------------------------
+r239 | bk308 | 2012-03-08 23:05:13 +0000 (Thu, 08 Mar 2012) | 30 lines
+
+Added supercell scaling feature to atoms class. 
+
+atom_list.scale_supercell(sx,sy,sz,cell);
+
+si = number of copies to make along i direction.
+cell = unit cell to use for cell lengths - will be scaled accordingly 
+(i.e x-length is scaled by sx) etc..
+ Example usage:
+
+
+//Create two atom motif as per usual
+bctype bc[3] = {Periodic,Open,Open};
+unitcell cell(10.0,100.0,1000.0,M_PI/2,M_PI/2,M_PI/2,bc);
+atom_list atoms(2);
+atoms[0].pos = vect3(0.0,0.0,0.0);
+atoms[1].pos = vect3(0.5,0.6,0.7);
+
+//print
+for(int i = 0; i < atoms.count();i++)
+cout << atoms[i].pos << endl;
+
+
+cout << endl << "After supercell transport" << endl;
+// Rescale atom vector and corresponding unit cell
+atoms.scale_supercell(2,3,1,cell);
+
+//print result
+for(int i = 0; i < atoms.count();i++)
+cout << atoms[i].pos << endl;
+
+------------------------------------------------------------------------
+r238 | mmk07 | 2012-03-08 16:25:25 +0000 (Thu, 08 Mar 2012) | 1 line
+
+-dry--run
+------------------------------------------------------------------------
+r237 | mmk07 | 2012-03-08 16:01:37 +0000 (Thu, 08 Mar 2012) | 1 line
+
+removed some cout statements
+------------------------------------------------------------------------
+r236 | vhc08 | 2012-03-08 15:57:21 +0000 (Thu, 08 Mar 2012) | 2 lines
+
+removed VOMIT to terminal
+
+------------------------------------------------------------------------
+r235 | mmk07 | 2012-03-08 15:56:55 +0000 (Thu, 08 Mar 2012) | 1 line
+
+stopped moldycat from spitting out loads of crap
+------------------------------------------------------------------------
+r234 | vhc08 | 2012-03-08 15:55:57 +0000 (Thu, 08 Mar 2012) | 2 lines
+
+moldy file
+
+------------------------------------------------------------------------
+r233 | vhc08 | 2012-03-08 15:54:24 +0000 (Thu, 08 Mar 2012) | 2 lines
+
+Tentatively fixed TB forces!!!!
+
+------------------------------------------------------------------------
+r232 | mec07 | 2012-03-08 13:49:28 +0000 (Thu, 08 Mar 2012) | 1 line
+
+changed the minimum separation of the carbon atoms to 0.69 Angstroms.
+------------------------------------------------------------------------
+r231 | mec07 | 2012-03-08 13:44:49 +0000 (Thu, 08 Mar 2012) | 1 line
+
+Updated moduleA to check if the positions are within 0.5 A of each other.
+------------------------------------------------------------------------
+r230 | bk308 | 2012-03-08 13:17:15 +0000 (Thu, 08 Mar 2012) | 17 lines
+
+    bctype bc[3] = {Periodic,Open,Open};
+     unitcell cell(10.0,10.0,10.0,M_PI/2,M_PI/2,M_PI/2,bc);
+
+    atom_list atoms(2);
+    atoms[0].pos = vect3(0.0,0.0,0.0);
+    atoms[1].pos = vect3(0.51,0.0,0.0);
+                                                                        
+    if(!atoms.check_dist(cell))                                           
+        exit(1);
+
+
+                                                                                                                                                  Added functions to check_distances between atoms are physically OK and unlikely to break our diagonalisation/integrator.
+                                                                                                                                                  Added vect3.dist_bc(vect3, cell); to compute distances between atoms. 
+                                                                                                                                                  This is more efficient than vect3.diff_bc(vect3, cell).norm() as it does not involve creating a temporary in the process.
+
+
+
+------------------------------------------------------------------------
+r229 | vhc08 | 2012-03-08 11:48:52 +0000 (Thu, 08 Mar 2012) | 2 lines
+
+Changed dH back to cube including the x,y,z components of the derivative. Everything copiles on my machine
+
+------------------------------------------------------------------------
+r228 | vhc08 | 2012-03-08 11:47:31 +0000 (Thu, 08 Mar 2012) | 2 lines
+
+Update moduleB
+
+------------------------------------------------------------------------
+r227 | bk308 | 2012-03-08 11:00:54 +0000 (Thu, 08 Mar 2012) | 13 lines
+
+Andersen thermostat. Simply replaces velocities with new ones drawn from Max-Boltz distribution.
+Use in same way as velocity rescaler: e.g
+  
+    atom_list atoms(100);
+      
+          thermobase* thermo = new andersen(1000,50);
+              thermo->apply(atoms);
+                  
+                       Note: if you want to print vect3s as a vertical,
+                            unformatted list of numbers use:
+
+                                  cout << static_cast<vec3>(atoms[i].pos);
+
+------------------------------------------------------------------------
+r226 | dmr110 | 2012-03-07 23:09:33 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+new module D tester
+
+------------------------------------------------------------------------
+r225 | dmr110 | 2012-03-07 22:19:26 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+stopped module B printing loads of shit
+
+------------------------------------------------------------------------
+r224 | dmr110 | 2012-03-07 22:15:53 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+fixed the broken something (no idea what it was!)
+
+------------------------------------------------------------------------
+r223 | dmr110 | 2012-03-07 17:20:31 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+small changes
+
+------------------------------------------------------------------------
+r222 | mmk07 | 2012-03-07 17:15:22 +0000 (Wed, 07 Mar 2012) | 1 line
+
+fixed sign error in B
+------------------------------------------------------------------------
+r221 | dmr110 | 2012-03-07 17:07:28 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+mass changed
+
+------------------------------------------------------------------------
+r220 | mmk07 | 2012-03-07 16:44:16 +0000 (Wed, 07 Mar 2012) | 1 line
+
+commented out the bit that ignores f0 in the repulsive energy correction i.e. we include it. Curve seems to be fine for linear chain
+------------------------------------------------------------------------
+r219 | dmr110 | 2012-03-07 16:32:36 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+small changes
+
+------------------------------------------------------------------------
+r218 | mmk07 | 2012-03-07 16:32:18 +0000 (Wed, 07 Mar 2012) | 1 line
+
+removed class class class class class
+------------------------------------------------------------------------
+r217 | dmr110 | 2012-03-07 16:31:49 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+repulsive forces working (ish)
+
+------------------------------------------------------------------------
+r216 | dmr110 | 2012-03-07 16:30:21 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+no repulsive
+
+------------------------------------------------------------------------
+r215 | dmr110 | 2012-03-07 16:30:03 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+with test module D method
+
+------------------------------------------------------------------------
+r214 | vhc08 | 2012-03-07 16:25:56 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+Removed tasty vommiting 
+
+------------------------------------------------------------------------
+r213 | vhc08 | 2012-03-07 16:19:45 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+Fixed density matrix
+
+------------------------------------------------------------------------
+r212 | vhc08 | 2012-03-07 16:19:15 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+removed factor of 2 from occupation number
+
+------------------------------------------------------------------------
+r211 | vhc08 | 2012-03-07 16:18:47 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+Transferred back factor of 2 to force
+
+------------------------------------------------------------------------
+r210 | ah808 | 2012-03-07 16:01:18 +0000 (Wed, 07 Mar 2012) | 1 line
+
+Ali's seg fault. Don't  checkout use preceeding version
+------------------------------------------------------------------------
+r209 | mmk07 | 2012-03-07 15:32:11 +0000 (Wed, 07 Mar 2012) | 5 lines
+
+Changed verifyEV so that it's compatible with the latest unitcell classes etc.
+
+It's currently set up to calculate the energy curve for a linear chain of 50 
+atoms.
+
+------------------------------------------------------------------------
+r208 | dmr110 | 2012-03-07 15:04:29 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+changed phi deriv
+
+------------------------------------------------------------------------
+r207 | vhc08 | 2012-03-07 14:41:01 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+Fixed out of bounds error
+
+------------------------------------------------------------------------
+r206 | vhc08 | 2012-03-07 14:29:05 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+5testing
+
+------------------------------------------------------------------------
+r205 | vhc08 | 2012-03-07 14:04:12 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+testing 
+
+------------------------------------------------------------------------
+r204 | mec07 | 2012-03-07 13:38:19 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+small error in moldycat.cpp, needed argv[]
+
+------------------------------------------------------------------------
+r203 | vhc08 | 2012-03-07 13:37:55 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+Added TBforces_tester module
+
+------------------------------------------------------------------------
+r202 | mec07 | 2012-03-07 13:35:13 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+updating module A so that you can type ./moldycat diamond to rn diamond as the seed.
+
+------------------------------------------------------------------------
+r201 | bk308 | 2012-03-07 13:29:23 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+Fill vec_list with zeros in constructor
+
+------------------------------------------------------------------------
+r200 | mec07 | 2012-03-07 13:12:22 +0000 (Wed, 07 Mar 2012) | 1 line
+
+Updated energyconstest to make it conform to use with the simulation class - the problem was that the simulation object was not treated as const.
+------------------------------------------------------------------------
+r199 | mec07 | 2012-03-07 13:11:06 +0000 (Wed, 07 Mar 2012) | 1 line
+
+Updated the forceeval to work with the simulation class.
+------------------------------------------------------------------------
+r198 | bk308 | 2012-03-07 12:56:18 +0000 (Wed, 07 Mar 2012) | 11 lines
+
+To Vincent:
+
+adding positions incrementally, i.e
+
+atom[0].pos+=change_in_pos;
+
+does no work, you need parentheses:
+
+
+(atom[0].pos)+=change_in_pos
+
+------------------------------------------------------------------------
+r197 | dmr110 | 2012-03-07 12:00:54 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+minimal changes
+
+------------------------------------------------------------------------
+r196 | vhc08 | 2012-03-07 11:11:33 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+removed more vommiting to terminal
+
+------------------------------------------------------------------------
+r195 | mmk07 | 2012-03-07 11:04:41 +0000 (Wed, 07 Mar 2012) | 1 line
+
+Damn it! Forgot to add pbcTester...
+------------------------------------------------------------------------
+r194 | mec07 | 2012-03-07 10:43:03 +0000 (Wed, 07 Mar 2012) | 1 line
+
+Minor update to moduleA, made it so that it can exit if something has gone wrong.
+------------------------------------------------------------------------
+r193 | mmk07 | 2012-03-07 04:00:40 +0000 (Wed, 07 Mar 2012) | 1 line
+
+reverting vect3 which i accidentally changed.
+------------------------------------------------------------------------
+r192 | mmk07 | 2012-03-07 03:58:17 +0000 (Wed, 07 Mar 2012) | 1 line
+
+I think I've corrected the problem with the PBC corrected vector.
+------------------------------------------------------------------------
+r191 | vhc08 | 2012-03-07 00:31:09 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+removed all the vomitting to terminal
+
+------------------------------------------------------------------------
+r190 | vhc08 | 2012-03-07 00:01:13 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+Forces give somewhat sensible answers and passes a few symmetry tests!
+
+------------------------------------------------------------------------
+r189 | vhc08 | 2012-03-07 00:00:23 +0000 (Wed, 07 Mar 2012) | 2 lines
+
+Cleaned it up a bit
+
+------------------------------------------------------------------------
+r188 | mec07 | 2012-03-06 23:30:33 +0000 (Tue, 06 Mar 2012) | 1 line
+
+corrected a small error in energycons.hpp, but there is a small problem with the sim class, it doesn't have any getters
+------------------------------------------------------------------------
+r187 | mec07 | 2012-03-06 23:29:26 +0000 (Tue, 06 Mar 2012) | 1 line
+
+corrected a small error in energycons.hpp, but there is a small problem with the sim class, it doesn't have any getters
+------------------------------------------------------------------------
+r185 | mec07 | 2012-03-06 23:07:21 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Removed the debug definition from module A, so that we don't get the debug info every time we run the program.
+
+------------------------------------------------------------------------
+r184 | mec07 | 2012-03-06 23:05:19 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+added the input of "sim", i.e. the simulation class to be read from the input file, so that the unit cell doesn't have to defined in the energycons.hpp file.
+
+------------------------------------------------------------------------
+r183 | mec07 | 2012-03-06 23:04:12 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Have set up moldycat.cpp to use module A, i.e. read an input file, before carrying out the testenergycons2.
+
+------------------------------------------------------------------------
+r182 | mec07 | 2012-03-06 22:52:43 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Updated module A to export the simulation object.
+
+------------------------------------------------------------------------
+r181 | mec07 | 2012-03-06 21:55:14 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Updated to include all of the parameters.
+
+------------------------------------------------------------------------
+r180 | mec07 | 2012-03-06 21:54:49 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Fixed bug and updated to work with the new simulation class
+
+------------------------------------------------------------------------
+r179 | dmr110 | 2012-03-06 21:50:48 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+changed to two atom toy model
+
+------------------------------------------------------------------------
+r178 | dmr110 | 2012-03-06 19:26:15 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+added a missing semi-colon. I believe you submitted something that didnt compile Vincent!!
+
+------------------------------------------------------------------------
+r177 | vhc08 | 2012-03-06 19:21:23 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Removed factor of 2 from TBforce
+
+------------------------------------------------------------------------
+r176 | vhc08 | 2012-03-06 19:18:27 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Changed so that factor of 2 for spin is included in the occupation numbers
+
+------------------------------------------------------------------------
+r175 | vhc08 | 2012-03-06 18:59:08 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Found another minor bug... 
+
+------------------------------------------------------------------------
+r174 | vhc08 | 2012-03-06 18:55:29 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Reluctantly removed the cout << "MOLDYCAT RULE!" line
+
+------------------------------------------------------------------------
+r173 | vhc08 | 2012-03-06 18:50:45 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Fixed a bug that might be ruining the forces!
+
+------------------------------------------------------------------------
+r172 | dmr110 | 2012-03-06 18:33:48 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+More changes to the repulsive forces. Still not sure if they are right
+
+------------------------------------------------------------------------
+r171 | dmr110 | 2012-03-06 18:32:30 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+module D tester changes
+
+------------------------------------------------------------------------
+r170 | dmr110 | 2012-03-06 17:22:41 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+changed to allow calculation of the repulsive forces
+
+------------------------------------------------------------------------
+r169 | dmr110 | 2012-03-06 17:04:28 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+fixed incorrect cut-off
+
+------------------------------------------------------------------------
+r168 | dmr110 | 2012-03-06 16:12:08 +0000 (Tue, 06 Mar 2012) | 5 lines
+
+I have made some changes to the repulsive forces but I am still not convinced they are right.
+
+I have made one or two other changes mainly to print stuff out for debugging purposes.
+
+
+------------------------------------------------------------------------
+r167 | dmr110 | 2012-03-06 15:01:42 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+the forces were being zeroed when tb forces were calculated which removed repulsive forces. i have removed this.
+
+------------------------------------------------------------------------
+r166 | dmr110 | 2012-03-06 14:25:28 +0000 (Tue, 06 Mar 2012) | 3 lines
+
+changed to test energy conservation of diamond input file (even discounting need to change unit cell etc. this should still conserve energy)
+HOWEVER it still goes mental and totally unphysical. Something is still very wrong.
+
+------------------------------------------------------------------------
+r164 | dmr110 | 2012-03-06 14:12:18 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+and some more
+
+------------------------------------------------------------------------
+r163 | dmr110 | 2012-03-06 14:11:35 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+removed a load of debugging print statements
+
+------------------------------------------------------------------------
+r162 | dmr110 | 2012-03-06 14:10:05 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+put back in tight binding forces. We have energy conservation! (Albeit for a two atom system)
+
+------------------------------------------------------------------------
+r161 | vhc08 | 2012-03-06 13:41:56 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Removed some testing stuff
+
+------------------------------------------------------------------------
+r160 | vhc08 | 2012-03-06 13:39:08 +0000 (Tue, 06 Mar 2012) | 8 lines
+
+Fixed bugs in code to calculate occupation numbers:
+
+--> I believe the factor of 2 from spin is already taken case of in the force calculations (need to check)
+--> Benjy's do-while loop meant that dgen_mindex/dgen_maxdex were being incremented first before the check was done so I used a while loop instead.
+--> The fermi energy level is actually the n/2 - 1 level not the n/2 level
+--> Did lots of test cases and am pretty confident that the code works
+--> Changed the code to check for the ABSOLUTE difference between the levels with the fermi level.
+
+------------------------------------------------------------------------
+r159 | dmr110 | 2012-03-06 11:52:15 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+ added missing cut-off to repulsive force
+
+------------------------------------------------------------------------
+r158 | bk308 | 2012-03-06 11:44:18 +0000 (Tue, 06 Mar 2012) | 4 lines
+
+Have replaced Musab's placeholder with code to calculate occupation numbers. Method is explained in moduleC.cpp.
+
+
+
+------------------------------------------------------------------------
+r157 | vhc08 | 2012-03-06 01:19:29 +0000 (Tue, 06 Mar 2012) | 2 lines
+
+Changed the buildHamiltonianDeriv to do calculate the elements in whole rather than in components, had to include the displacement vector as one of the parameters for the forces so that the forces could then be put into vector form. Fixed a few places where the function was being called. It compiles on my laptop :).
+
+------------------------------------------------------------------------
+r156 | ah808 | 2012-03-05 21:54:59 +0000 (Mon, 05 Mar 2012) | 1 line
+
+added graphite module and function to moldycat.cpp
+------------------------------------------------------------------------
+r155 | ah808 | 2012-03-05 21:52:32 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Added graphite EV tester thingy
+------------------------------------------------------------------------
+r154 | mmk07 | 2012-03-05 21:21:08 +0000 (Mon, 05 Mar 2012) | 5 lines
+
+Added placeholder for occupation number object in moduleC, method diagonalise. This now takes an empty vector of length 4*N and populates it with the required occupation number. Currently it is only populating the first 2N points - this needs to be changed so it properly takes into account degeneracy. 
+Changed one line in the buildDM method (in moduleB) so that it accounts for this occupation vector.
+Amended all instances I could find of diagonalise and buildDM in the various files/clases so that it takes the argument 'vec occupation'. 
+Everything compiles and runs, so no biscuits this time bitches!
+
+------------------------------------------------------------------------
+r153 | mec07 | 2012-03-05 19:39:08 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Updated simulation.hpp and now it should compile.
+------------------------------------------------------------------------
+r152 | mec07 | 2012-03-05 19:30:35 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Update moduleA in accordance wiht the restructuring of the simulation class.
+------------------------------------------------------------------------
+r151 | mec07 | 2012-03-05 19:27:56 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Updated energycons.hpp to be in accordance with the restructuring of the simulation class.
+------------------------------------------------------------------------
+r150 | mec07 | 2012-03-05 19:22:39 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Updated moldycat.cpp to get rid of typo.
+------------------------------------------------------------------------
+r149 | mec07 | 2012-03-05 19:19:04 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Updated for teh resctructuring of the simulation class.
+------------------------------------------------------------------------
+r148 | mec07 | 2012-03-05 19:17:44 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Update the restructuring of the simulation class.
+------------------------------------------------------------------------
+r147 | ah808 | 2012-03-05 19:15:17 +0000 (Mon, 05 Mar 2012) | 1 line
+
+
+------------------------------------------------------------------------
+r146 | mec07 | 2012-03-05 19:14:36 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Update the forceeval for the restructuring of the simulation class.
+------------------------------------------------------------------------
+r145 | mec07 | 2012-03-05 19:13:31 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Updated moduleDnew for the rescturing of the simulation class.
+------------------------------------------------------------------------
+r144 | mec07 | 2012-03-05 19:12:26 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Updating moduleA with regards to the restructuring of the simulation class.
+------------------------------------------------------------------------
+r143 | mec07 | 2012-03-05 19:09:41 +0000 (Mon, 05 Mar 2012) | 1 line
+
+Updated moldycat.cpp to include the restructuring of the simulation class.
+------------------------------------------------------------------------
+r140 | mec07 | 2012-03-05 18:45:20 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+Updated module A to not skip the second line as we shall now be only using hte positions.xyz format, and no longer the navy files.
+
+------------------------------------------------------------------------
+r139 | mmk07 | 2012-03-05 18:35:16 +0000 (Mon, 05 Mar 2012) | 1 line
+
+put in missing factor of 2 in the summation of the energies in moduleC
+------------------------------------------------------------------------
+r137 | dmr110 | 2012-03-05 18:30:13 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+commenting stuff out
+
+------------------------------------------------------------------------
+r136 | dmr110 | 2012-03-05 18:28:21 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+commenting stuff out
+
+------------------------------------------------------------------------
+r135 | dmr110 | 2012-03-05 18:28:03 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+commenting stuff out
+
+------------------------------------------------------------------------
+r134 | dmr110 | 2012-03-05 18:27:03 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+printing stuff, repulsive forces not the problem
+
+------------------------------------------------------------------------
+r133 | mec07 | 2012-03-05 17:52:02 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+updated some commenting.
+
+------------------------------------------------------------------------
+r132 | dmr110 | 2012-03-05 17:24:42 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+fixed repulsive forces
+
+------------------------------------------------------------------------
+r131 | bk308 | 2012-03-05 17:24:00 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+Pretty printing of debug info
+
+------------------------------------------------------------------------
+r130 | dmr110 | 2012-03-05 17:00:52 +0000 (Mon, 05 Mar 2012) | 1 line
+
+
+------------------------------------------------------------------------
+r129 | dmr110 | 2012-03-05 17:00:09 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+small change
+
+------------------------------------------------------------------------
+r128 | dmr110 | 2012-03-05 16:59:32 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+changed includes
+
+------------------------------------------------------------------------
+r127 | dmr110 | 2012-03-05 16:59:10 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+changed includes
+
+------------------------------------------------------------------------
+r126 | dmr110 | 2012-03-05 16:57:38 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+deleting old module D
+
+------------------------------------------------------------------------
+r125 | dmr110 | 2012-03-05 16:48:20 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+fixed repulsive forces
+
+------------------------------------------------------------------------
+r124 | dmr110 | 2012-03-05 16:31:24 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+changed to print to file
+
+------------------------------------------------------------------------
+r123 | bk308 | 2012-03-05 16:03:42 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+Diagnostic system
+
+------------------------------------------------------------------------
+r122 | mec07 | 2012-03-05 13:50:27 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+Changed to accord with module A
+
+------------------------------------------------------------------------
+r121 | mec07 | 2012-03-05 13:44:23 +0000 (Mon, 05 Mar 2012) | 2 lines
+
+compiling version of moduleA. still not intefaced with simulation class yet.
+
+------------------------------------------------------------------------
+r120 | mec07 | 2012-03-04 22:52:54 +0000 (Sun, 04 Mar 2012) | 2 lines
+
+Updated Module A. It is not yet complete. It still requires interfacing with the simulation class.
+
+------------------------------------------------------------------------
+r119 | bk308 | 2012-03-04 21:15:55 +0000 (Sun, 04 Mar 2012) | 4 lines
+
+How can the repulsive energy be negative (binding) which it appears to be rather often? I was under the impression it was supposed to -> zero as r -> r_crit. Surely at this point the repulsive energy is at its lowest - when does it go negative? Please diagnose and amend.
+
+The Verlet class looks a bit messy as there are lots of lines to spew debugging info to the console. I suspect the first problem to diagnose will be in the repulsive energy.
+
+------------------------------------------------------------------------
+r118 | bk308 | 2012-03-04 21:05:04 +0000 (Sun, 04 Mar 2012) | 2 lines
+
+Have performed basic testing of integrator - it seems to work (convince yourself energy is conserved in my toy model). We can rule out one part of the code at least..
+
+------------------------------------------------------------------------
+r117 | bk308 | 2012-03-04 18:48:54 +0000 (Sun, 04 Mar 2012) | 3 lines
+
+Fixed another bug but still no energy conservation. Run moldycat and play positions.xyz in jmol.
+Need to get together and work this out.
+
+------------------------------------------------------------------------
+r116 | bk308 | 2012-03-04 13:35:23 +0000 (Sun, 04 Mar 2012) | 2 lines
+
+Still some serious energy conservation problems. The repulsive energies (and probably corresponding forces) are more obviously wrong given the large magnitudes we are seeing. Think we need a serious MolDybugging session...
+
+------------------------------------------------------------------------
+r115 | bk308 | 2012-03-04 13:05:19 +0000 (Sun, 04 Mar 2012) | 2 lines
+
+WIP.. backup before changes break everything. Use previous revision.
+
+------------------------------------------------------------------------
+r114 | bk308 | 2012-03-04 12:18:24 +0000 (Sun, 04 Mar 2012) | 4 lines
+
+Fixed lots of bugs but we evidently have some more.
+
+I'm getting some serious energy drift for 10 atoms with timestep of 0.1.
+
+------------------------------------------------------------------------
+r113 | bk308 | 2012-03-03 12:40:03 +0000 (Sat, 03 Mar 2012) | 4 lines
+
+Added placeholder for energy conservation testing function to moldycat.cpp.
+
+Can someone take a look at the forces and make sure we are getting something sensible?
+
+------------------------------------------------------------------------
+r112 | dmr110 | 2012-03-01 20:03:54 +0000 (Thu, 01 Mar 2012) | 2 lines
+
+changes to includes
+
+------------------------------------------------------------------------
+r111 | dmr110 | 2012-03-01 20:03:24 +0000 (Thu, 01 Mar 2012) | 2 lines
+
+New graphene tester module
+
+------------------------------------------------------------------------
+r109 | vhc08 | 2012-03-01 12:13:59 +0000 (Thu, 01 Mar 2012) | 2 lines
+
+me dum
+
+------------------------------------------------------------------------
+r108 | vhc08 | 2012-03-01 12:11:47 +0000 (Thu, 01 Mar 2012) | 2 lines
+
+Fixed normalising bug
+
+------------------------------------------------------------------------
+r107 | bk308 | 2012-03-01 11:50:05 +0000 (Thu, 01 Mar 2012) | 2 lines
+
+Fixed verifyEV
+
+------------------------------------------------------------------------
+r106 | bk308 | 2012-03-01 10:22:16 +0000 (Thu, 01 Mar 2012) | 2 lines
+
+Made base classes pure virtual
+
+------------------------------------------------------------------------
+r105 | vhc08 | 2012-02-29 23:26:40 +0000 (Wed, 29 Feb 2012) | 2 lines
+
+Fixed a few bugs
+
+------------------------------------------------------------------------
+r104 | vhc08 | 2012-02-29 23:26:28 +0000 (Wed, 29 Feb 2012) | 2 lines
+
+Fixed a few bugs
+
+------------------------------------------------------------------------
+r103 | bk308 | 2012-02-29 12:47:30 +0000 (Wed, 29 Feb 2012) | 2 lines
+
+ Removed deprecated _bc(,,cell) methods in vect3
+
+------------------------------------------------------------------------
+r102 | vhc08 | 2012-02-29 12:36:16 +0000 (Wed, 29 Feb 2012) | 2 lines
+
+Added more comments..
+
+------------------------------------------------------------------------
+r101 | vhc08 | 2012-02-29 12:04:19 +0000 (Wed, 29 Feb 2012) | 2 lines
+
+Added more comments to module B and E
+
+------------------------------------------------------------------------
+r100 | vhc08 | 2012-02-29 11:54:18 +0000 (Wed, 29 Feb 2012) | 2 lines
+
+Tidies up Module B, added lots of comments
+
+------------------------------------------------------------------------
+r99 | vhc08 | 2012-02-29 10:40:26 +0000 (Wed, 29 Feb 2012) | 2 lines
+
+Something wrong with dist_bc?
+
+------------------------------------------------------------------------
+r98 | vhc08 | 2012-02-29 01:28:19 +0000 (Wed, 29 Feb 2012) | 2 lines
+
+Added comments to module B and shifted functions from B to E
+
+------------------------------------------------------------------------
+r96 | bk308 | 2012-02-28 23:16:55 +0000 (Tue, 28 Feb 2012) | 6 lines
+
+Hugely embarassing mistake. Had put a little safeguard in to make sure no one tried to use the thermo and stepper base objects directly. Silly me ended up doing exactly what I was trying to stop other people doing accidentally.
+
+For the record this is because I was declaring the objects statically rather than dynamically and the RTT stuff couldn't work.
+
+Sozzles. Biscuits on me.
+
+------------------------------------------------------------------------
+r89 | bk308 | 2012-02-28 09:25:47 +0000 (Tue, 28 Feb 2012) | 2 lines
+
+Mini compilation problem... no one noticed.
+
+------------------------------------------------------------------------
+r88 | bk308 | 2012-02-28 09:23:19 +0000 (Tue, 28 Feb 2012) | 4 lines
+
+Split atom.hpp into .cpp and .h (eventually all source files will follow this pattern) - This should speed up compilation times a tad since I added all the other new classes.
+Added sample thermostat to show how the thermobase works. Don't worry! All will be explained on Wednesday!
+
+
+------------------------------------------------------------------------
+r87 | bk308 | 2012-02-28 08:15:13 +0000 (Tue, 28 Feb 2012) | 11 lines
+
+Added src/thermo/rand.cpp to provide uniform and gaussian deviates where required (presumably within the thermostats).
+ranq1 uniform(3242343);
+uniform.next(); gives doubles
+unifrom.int64()' gives integers - cast to 32 bit integer if you don't need a long
+
+
+rangauss my_first_gaussian_rng(0.0,1.0,23423432325322);
+my_first_gaussian_rng.norm(); gives normal deviate within mean 0.0 and st.dev. 1.0
+
+Enjoy
+
+------------------------------------------------------------------------
+r86 | bk308 | 2012-02-27 23:11:03 +0000 (Mon, 27 Feb 2012) | 2 lines
+
+Comments galore!
+
+------------------------------------------------------------------------
+r85 | bk308 | 2012-02-27 22:38:51 +0000 (Mon, 27 Feb 2012) | 15 lines
+
+Scanning dependencies of target moldycat
+[ 25%] Building CXX object CMakeFiles/moldycat.dir/src/moldycat.cpp.o
+i686-apple-darwin11-llvm-g++-4.2: -framework: linker input file unused because linking not done
+Have implemented a template integrator using Musab's code. This is provided as is and untested. Will have to speak to speak to Musab abou
+t testing it. 
+Basically line 60  of moldycat.cpp:
+
+   stepperbase integrator = verlet(forcer,0.1,100);
+      
+      is the only line that would need to be changed in order to use another integration algorithm. e.g
+
+         stepperbase integrator = higher_order_nastiness(forcer,0.1,100, nonsense_stuff_for_example, gubbins);
+
+         and the rest will work automatically (in theory)
+
+------------------------------------------------------------------------
+r84 | bk308 | 2012-02-27 21:21:14 +0000 (Mon, 27 Feb 2012) | 5 lines
+
+Cleaned up vect3.* and made sure errors are generated if you try use deprecated functions like vect3.add_bc(vect3,cell).
+It will compile (just)... but just you see what happens if you try run it! Ha!
+
+Also made sure moduleB functions used referenced arguments. Have reset all matrices to zero in the forceeval class - remove as required.
+
+------------------------------------------------------------------------
+r83 | bk308 | 2012-02-27 20:55:11 +0000 (Mon, 27 Feb 2012) | 20 lines
+
+Added const correcness problems we had while passing atom_list objects (i.e const was not compiling when it should have)...
+Illustrative example of what this means
+
+void test(const atom& a)
+{
+        //This will compile as atom not being modified
+        cout << a.pos << endl;
+        cout << a.pos.x() << endl;i
+
+  NAUGHTY!      a.pos = vect3(0,0,0);
+  RESULTS IN:
+                // In function ‘void test(const moldycat::atom&)’:
+                // error: passing ‘const moldycat::vect3’ as ‘this’ argument of ‘moldycat::vect3& moldycat
+
+                i.e const arguments can not be modified
+                    
+
+}
+
+
+------------------------------------------------------------------------
+r82 | bk308 | 2012-02-27 17:25:46 +0000 (Mon, 27 Feb 2012) | 3 lines
+
+Moved all the modules into the modules directory and added the forceeval object to the sim directory. Hopefully this will clean up our code nicely. It means that we can work on the integrator agnostic of how the forces are being computed. I've left some placeholders in the method for someone to fill in. Module C could be used to compute the tight binding energy (and detect and degeneracy to be communicated to the TB force evaluator).
+Touch wood it all compiles!
+
+------------------------------------------------------------------------
+r81 | vhc08 | 2012-02-23 23:43:33 +0000 (Thu, 23 Feb 2012) | 2 lines
+
+Created function to build Density Matrix and connected it with the forces module
+
+------------------------------------------------------------------------
+r80 | vhc08 | 2012-02-23 22:59:42 +0000 (Thu, 23 Feb 2012) | 2 lines
+
+Fixed out of bounds error in Module B
+
+------------------------------------------------------------------------
+r79 | vhc08 | 2012-02-23 22:44:44 +0000 (Thu, 23 Feb 2012) | 2 lines
+
+Filled in module to calculate derivative of Hamiltonian. The module is a beast, do not trust its output or you will suffer the consequences. I'm serious. Lots of testing needs to be done......... 
+
+------------------------------------------------------------------------
+r78 | mmk07 | 2012-02-23 18:12:35 +0000 (Thu, 23 Feb 2012) | 1 line
+
+added repulsive forces, general body for TB forces (details to be filled in by Vincent later)
+------------------------------------------------------------------------
+r77 | vhc08 | 2012-02-23 17:30:19 +0000 (Thu, 23 Feb 2012) | 2 lines
+
+created function in module B to give force on the ath orbtial of atom i from the bth orbital on atom j. This module will be moved later to the forces module (so that we don't have conflicts now)
+
+------------------------------------------------------------------------
+r76 | mmk07 | 2012-02-22 20:02:28 +0000 (Wed, 22 Feb 2012) | 1 line
+
+Ali made some changes to your code Benjy. Please take a look at the comments as he thinks it is bad programming practice
+------------------------------------------------------------------------
+r74 | vhc08 | 2012-02-22 16:54:45 +0000 (Wed, 22 Feb 2012) | 2 lines
+
+Not fixed anything but compiles
+
+------------------------------------------------------------------------
+r73 | bk308 | 2012-02-22 14:45:03 +0000 (Wed, 22 Feb 2012) | 2 lines
+
+Added norm_bc and dot_bc functiones to vect3 object.
+
+------------------------------------------------------------------------
+r71 | vhc08 | 2012-02-22 13:51:01 +0000 (Wed, 22 Feb 2012) | 4 lines
+
+Used naming conventions for constants in paper
+IT PRODUCES THE RIGHT SHAPE WITH MINIMUM
+TAKE THAT IN YOUR FACE (Dan)
+
+------------------------------------------------------------------------
+r70 | bk308 | 2012-02-22 13:40:06 +0000 (Wed, 22 Feb 2012) | 1 line
+
+test.cpp in root for Marc
+------------------------------------------------------------------------
+r69 | mmk07 | 2012-02-22 03:31:34 +0000 (Wed, 22 Feb 2012) | 1 line
+
+forgot to add files
+------------------------------------------------------------------------
+r68 | mmk07 | 2012-02-22 03:31:03 +0000 (Wed, 22 Feb 2012) | 1 line
+
+
+------------------------------------------------------------------------
+r67 | mmk07 | 2012-02-22 03:28:39 +0000 (Wed, 22 Feb 2012) | 1 line
+
+
+------------------------------------------------------------------------
+r66 | mmk07 | 2012-02-22 03:10:37 +0000 (Wed, 22 Feb 2012) | 1 line
+
+removed a few couts
+------------------------------------------------------------------------
+r65 | mmk07 | 2012-02-22 03:08:18 +0000 (Wed, 22 Feb 2012) | 1 line
+
+tried redoing the pairwise energies (moduleDnew). it now produces an EV curve without a kink, and generally the right shape, but it's about 3.5eV too high...
+------------------------------------------------------------------------
+r64 | bk308 | 2012-02-22 00:11:51 +0000 (Wed, 22 Feb 2012) | 14 lines
+
+Rearranged source code files into directories to make code clearer. 
+Have added placeholders for stepper (integration routines) and thermo (thermostats) - thought these abbreviations would save typing in the long run.
+I propose the following directory structure:
+root - Makefiles/executables
+src - Module files and moldycat.cpp
+test - testing code for modules
+atom - atom and vector stuff
+sim - simulation object and unitcell stuff
+thermo - thermostats
+stepper - integration algorithms
+
+Will make a start on the structure of the new classes tomorrow. 
+
+
+------------------------------------------------------------------------
+r62 | mmk07 | 2012-02-21 22:13:08 +0000 (Tue, 21 Feb 2012) | 1 line
+
+forgot to add ev file...
+------------------------------------------------------------------------
+r61 | mmk07 | 2012-02-21 22:12:51 +0000 (Tue, 21 Feb 2012) | 2 lines
+
+cleaned up a few files (removed a few unnecessary headers). moved moldycat2.cpp (marc and ali's verification of ev curves bit) to a new file called verifyEV.hpp, that has a function that is now called by moldycat.cpp. Does anyone know if we can get rid of most of the headers in the modules e.g. "\#include armadillo"?. I've tried a couple and it seems to work fine, but don't want to go about massacring all the files just in case"
+
+------------------------------------------------------------------------
+r60 | dmr110 | 2012-02-21 22:11:45 +0000 (Tue, 21 Feb 2012) | 2 lines
+
+ Appears to work now. Removed discontinuity in module D
+
+------------------------------------------------------------------------
+r59 | mmk07 | 2012-02-21 22:08:55 +0000 (Tue, 21 Feb 2012) | 1 line
+
+Getting rid of moldycat2.cpp and replacing it with a function that is called by moldycat.cpp
+------------------------------------------------------------------------
+r58 | ah808 | 2012-02-21 20:30:25 +0000 (Tue, 21 Feb 2012) | 1 line
+
+to reproduce energy volume curves for linear carbon chains use moldycat2.cpp
+------------------------------------------------------------------------
+r57 | mmk07 | 2012-02-21 19:09:36 +0000 (Tue, 21 Feb 2012) | 1 line
+
+Changed back to use unit cell for everything as apparently diff_bc does work on unit cells\!
+------------------------------------------------------------------------
+r56 | mmk07 | 2012-02-21 18:05:46 +0000 (Tue, 21 Feb 2012) | 1 line
+
+changed moduleB so the method buildHamiltonian takes a vect3 cell as an input (at least until this becomes a global option)
+------------------------------------------------------------------------
+r55 | mmk07 | 2012-02-21 18:04:18 +0000 (Tue, 21 Feb 2012) | 1 line
+
+
+------------------------------------------------------------------------
+r54 | mmk07 | 2012-02-20 14:25:01 +0000 (Mon, 20 Feb 2012) | 1 line
+
+minor tweaks. made integrator pbc corrected.
+------------------------------------------------------------------------
+r53 | mmk07 | 2012-02-20 11:29:29 +0000 (Mon, 20 Feb 2012) | 1 line
+
+cleared up moldycat.cpp
+------------------------------------------------------------------------
+r52 | dmr110 | 2012-02-20 11:06:37 +0000 (Mon, 20 Feb 2012) | 2 lines
+
+minor fix
+
+------------------------------------------------------------------------
+r51 | dmr110 | 2012-02-20 11:05:45 +0000 (Mon, 20 Feb 2012) | 2 lines
+
+minor fix
+
+------------------------------------------------------------------------
+r50 | vhc08 | 2012-02-20 11:05:12 +0000 (Mon, 20 Feb 2012) | 2 lines
+
+included moduleE.hpp in header
+
+------------------------------------------------------------------------
+r48 | bk308 | 2012-02-20 10:55:54 +0000 (Mon, 20 Feb 2012) | 2 lines
+
+Module E
+
+------------------------------------------------------------------------
+r47 | bk308 | 2012-02-20 10:55:25 +0000 (Mon, 20 Feb 2012) | 2 lines
+
+Module D
+
+------------------------------------------------------------------------
+r45 | vhc08 | 2012-02-20 10:53:57 +0000 (Mon, 20 Feb 2012) | 2 lines
+
+Fixed ModuleB
+
+------------------------------------------------------------------------
+r44 | mmk07 | 2012-02-20 10:53:33 +0000 (Mon, 20 Feb 2012) | 1 line
+
+Added integrator, integrator tester and analysis modules (that currently only prints jmol compatible files)
+------------------------------------------------------------------------
+r43 | mec07 | 2012-02-20 10:45:10 +0000 (Mon, 20 Feb 2012) | 1 line
+
+Read in file of positions.
+------------------------------------------------------------------------
+r42 | vhc08 | 2012-02-20 10:26:30 +0000 (Mon, 20 Feb 2012) | 2 lines
+
+Module B fix
+
+------------------------------------------------------------------------
+r41 | mmk07 | 2012-02-18 03:04:34 +0000 (Sat, 18 Feb 2012) | 1 line
+
+These changes should give you paws for thought...
+------------------------------------------------------------------------
+r40 | mmk07 | 2012-02-18 01:35:20 +0000 (Sat, 18 Feb 2012) | 1 line
+
+Changed module B (hamiltonian constructor) so only half the elements are calculated and then the rest obtained immediately by symmettry
+------------------------------------------------------------------------
+r39 | bk308 | 2012-02-17 14:22:14 +0000 (Fri, 17 Feb 2012) | 5 lines
+
+Added unitcell.nom(vect3 a)
+and   unitcell.dot(vect3 a, vect3 b)
+
+for inner products in non-ortho coordinate systems
+
+------------------------------------------------------------------------
+r38 | dmr110 | 2012-02-16 16:06:28 +0000 (Thu, 16 Feb 2012) | 1 line
+
+
+------------------------------------------------------------------------
+r37 | dmr110 | 2012-02-16 16:01:27 +0000 (Thu, 16 Feb 2012) | 2 lines
+
+minor changes
+
+------------------------------------------------------------------------
+r36 | dmr110 | 2012-02-16 16:00:14 +0000 (Thu, 16 Feb 2012) | 2 lines
+
+just to shut vincent up
+
+------------------------------------------------------------------------
+r35 | dmr110 | 2012-02-16 14:12:56 +0000 (Thu, 16 Feb 2012) | 2 lines
+
+moldycat.cpp changed to add module D test 
+
+------------------------------------------------------------------------
+r34 | dmr110 | 2012-02-16 14:12:19 +0000 (Thu, 16 Feb 2012) | 2 lines
+
+module D tester method corrected
+
+------------------------------------------------------------------------
+r32 | bk308 | 2012-02-16 11:33:15 +0000 (Thu, 16 Feb 2012) | 2 lines
+
+Fixed runaway comment in unitcell.cpp which might have caused compilation problems.
+
+------------------------------------------------------------------------
+r31 | bk308 | 2012-02-16 00:41:52 +0000 (Thu, 16 Feb 2012) | 2 lines
+
+Seems to compile OK. Added rudimentary comments to atom/unitcell.*
+
+------------------------------------------------------------------------
+r30 | bk308 | 2012-02-16 00:28:09 +0000 (Thu, 16 Feb 2012) | 10 lines
+
+OK, relatively major changes behind the scenes. I will comment everything once it is vaguely working and then explain to those interested.
+Firstly, I have switched to the header file + definition file convention for the vect3 and unitcell types. These are now split across a header file (to use for includes) .h and a .cpp file in which the code is defined.
+
+The unitcell object will eventually be part of the simulation object and supports periodic boundary conditions in non-orthorhombic unit cells with mixtures of periodic and open boundary conditions.
+
+I will circulate usage notes for this class but hopefully it will not break any existing code. Essentially, the idea is that every instance of vect3.DOSOMETHING_bc(vect3 v, vect3 cell) will be replace by a call to vect3_DOSOMETHING_bc(vect3 v, unitcell cell). This should require modification of no more than a few lines of code in each routine hopefully. I have kept the existing functions there just in case.
+
+As I am editing everyfile simultaneously there will inevitably be lots of conflicts and compile errors. You may as well start emailing me your biscuit preferences now........
+
+
+------------------------------------------------------------------------
+r29 | dmr110 | 2012-02-15 22:44:26 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+very minor changes to moduleDtester
+
+------------------------------------------------------------------------
+r28 | dmr110 | 2012-02-15 22:44:01 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+corrections to force calculation methods
+
+------------------------------------------------------------------------
+r27 | dmr110 | 2012-02-15 22:19:57 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+module D tester added
+
+------------------------------------------------------------------------
+r26 | dmr110 | 2012-02-15 22:19:21 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+minor comment changes to module D
+
+------------------------------------------------------------------------
+r25 | dmr110 | 2012-02-15 20:50:26 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+Tester for module D
+
+------------------------------------------------------------------------
+r24 | dmr110 | 2012-02-15 20:37:27 +0000 (Wed, 15 Feb 2012) | 3 lines
+
+Added force functionality. Module D is now nominally complete. Will write test program.
+Daniel
+
+------------------------------------------------------------------------
+r23 | vhc08 | 2012-02-15 14:59:46 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+blahblah
+
+------------------------------------------------------------------------
+r22 | vhc08 | 2012-02-15 14:55:21 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+Fixed silly error
+
+------------------------------------------------------------------------
+r21 | vhc08 | 2012-02-15 14:35:32 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+Fixed module B
+
+------------------------------------------------------------------------
+r20 | vhc08 | 2012-02-15 14:24:00 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+Finished (hopefully) module B
+
+------------------------------------------------------------------------
+r19 | vhc08 | 2012-02-15 14:00:57 +0000 (Wed, 15 Feb 2012) | 1 line
+
+Doesn't compile
+------------------------------------------------------------------------
+r18 | vhc08 | 2012-02-15 10:05:07 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+Update for module B
+
+------------------------------------------------------------------------
+r17 | vhc08 | 2012-02-15 09:49:54 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+Updated module B
+
+------------------------------------------------------------------------
+r16 | vhc08 | 2012-02-15 09:31:58 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+Fixed matrix syntax
+
+------------------------------------------------------------------------
+r15 | vhc08 | 2012-02-15 09:29:22 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+Fixed missing semi-colons
+
+------------------------------------------------------------------------
+r14 | vhc08 | 2012-02-15 09:28:16 +0000 (Wed, 15 Feb 2012) | 2 lines
+
+Fixed module B
+
+------------------------------------------------------------------------
+r13 | ah808 | 2012-02-14 20:29:25 +0000 (Tue, 14 Feb 2012) | 1 line
+
+matrix diagonalisation
+------------------------------------------------------------------------
+r12 | ah808 | 2012-02-14 20:13:04 +0000 (Tue, 14 Feb 2012) | 1 line
+
+got eigenvals, eigenvecs with armadillo
+------------------------------------------------------------------------
+r11 | vhc08 | 2012-02-14 17:19:39 +0000 (Tue, 14 Feb 2012) | 2 lines
+
+Started Module B
+
+------------------------------------------------------------------------
+r10 | dmr110 | 2012-02-14 14:28:32 +0000 (Tue, 14 Feb 2012) | 3 lines
+
+added a few lines to allow testing of moduleD. I haven't removed anything, just commented out sections I didn't need.
+Daniel
+
+------------------------------------------------------------------------
+r9 | dmr110 | 2012-02-14 14:27:15 +0000 (Tue, 14 Feb 2012) | 4 lines
+
+Have successfully implemented calculation of repulsive energy in module D.
+
+Daniel
+
+------------------------------------------------------------------------
+r8 | bk308 | 2012-02-13 17:37:55 +0000 (Mon, 13 Feb 2012) | 9 lines
+
+ vect3 class to be
+-- const corretness for applicable methods
+-- added boundary condition respecting methods for vector between two vect3s (diff_bc) and dist_bc for separation
+-- Overloaded ostream for pretty debugging
+atom class
+-- Overloaded ostream for pretty debugging
+Main
+-- Added examples of usage of new features
+
+------------------------------------------------------------------------
+r7 | bk308 | 2012-02-08 22:16:03 +0000 (Wed, 08 Feb 2012) | 2 lines
+
+Added comments to make examples clearer
+
+------------------------------------------------------------------------
+r6 | bk308 | 2012-02-08 21:53:52 +0000 (Wed, 08 Feb 2012) | 3 lines
+
+Fixed some linker problems between moldycat.cpp and the module headers.
+Should now compile fine although need to review const passing of atom_lists as count() appears to be non-const.
+
+------------------------------------------------------------------------
+r5 | bk308 | 2012-02-08 21:23:07 +0000 (Wed, 08 Feb 2012) | 2 lines
+
+Added atom and vector datastructures in src/atom subfolder
+
+------------------------------------------------------------------------
+r4 | bk308 | 2012-02-08 21:17:18 +0000 (Wed, 08 Feb 2012) | 15 lines
+
+Third submission attempt after removing directory from file list.
+
+Basic prototypes of modules A,B,C and D. Added all files to CMakeList.txt.
+To compile run (in project root directory):
+
+cmake ./
+
+This creates Makefile. Then run:
+
+make
+
+This will compile all the sourcefiles and output the executable moldycat. Run using:
+
+./moldycat
+
+------------------------------------------------------------------------
+r3 | bk308 | 2012-02-08 21:01:24 +0000 (Wed, 08 Feb 2012) | 2 lines
+
+Added src/atom subdirectory to contain data structures for atoms/vectors..etc
+
+------------------------------------------------------------------------
+r2 | bk308 | 2012-02-08 17:06:43 +0000 (Wed, 08 Feb 2012) | 2 lines
+
+Directory to contain MolDyCat source files
+
+------------------------------------------------------------------------
